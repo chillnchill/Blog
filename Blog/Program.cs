@@ -1,23 +1,27 @@
 using Blog.Data;
 using Blog.Data.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-string connectionString =
-	builder.Configuration.GetConnectionString("DefaultConnection");
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection")!;
 
 builder.Services.AddDbContext<BlogDbContext>(options =>
 	options.UseSqlServer(connectionString));
 
-// Add services to the container.
+
+// You need the nuget packages for DefaultIdentity (EFC Identity + ASP.NET UI)
+builder.Services.AddDefaultIdentity<IdentityUser>()
+	.AddRoles<IdentityRole>()
+	.AddEntityFrameworkStores<BlogDbContext>();
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IRepository, Repository>();
 
 WebApplication app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
 	app.UseExceptionHandler("/Home/Error");
@@ -30,6 +34,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

@@ -1,10 +1,11 @@
 ﻿using Blog.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 namespace Blog.Data
 {
-	public class BlogDbContext : DbContext
+	public class BlogDbContext : IdentityDbContext
 	{
         public BlogDbContext(DbContextOptions<BlogDbContext> options)
             : base(options)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\CodeProjects\\Blog\\Blog\\Blog\\Blog.csproj": {}
+    "F:\\CodeProjects\\Blog\\Blog\\Blog.csproj": {}
   },
   "projects": {
-    "F:\\CodeProjects\\Blog\\Blog\\Blog\\Blog.csproj": {
+    "F:\\CodeProjects\\Blog\\Blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\CodeProjects\\Blog\\Blog\\Blog\\Blog.csproj",
+        "projectUniqueName": "F:\\CodeProjects\\Blog\\Blog\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "F:\\CodeProjects\\Blog\\Blog\\Blog\\Blog.csproj",
+        "projectPath": "F:\\CodeProjects\\Blog\\Blog\\Blog.csproj",
         "packagesPath": "C:\\Users\\jojoc\\.nuget\\packages\\",
-        "outputPath": "F:\\CodeProjects\\Blog\\Blog\\Blog\\obj\\",
+        "outputPath": "F:\\CodeProjects\\Blog\\Blog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jojoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"

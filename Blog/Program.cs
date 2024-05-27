@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Blog.Extensions;
+using Blog.Data.FileManager;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
@@ -14,18 +15,24 @@ builder.Services.AddDbContext<BlogDbContext>(options =>
 
 
 // You need the nuget packages for DefaultIdentity (EFC Identity + ASP.NET UI)
-builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequiredLength = 6;
     options.Password.RequireDigit = false;
     options.Password.RequireUppercase = false;
 })
-    .AddRoles<IdentityRole>()
+   // .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<BlogDbContext>();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/User/Login";
+});
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IRepository, Repository>();
+builder.Services.AddTransient<IFileManager, FileManager>();
 
 WebApplication app = builder.Build();
 
@@ -37,6 +44,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+//this is to load images (for example)
 app.UseStaticFiles();
 
 app.UseRouting();

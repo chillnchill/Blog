@@ -20,21 +20,25 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Panel" asp-action="Edit">Create Post</a>
+                        </li>         
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Edit">Create Post</a>
-                        </li>           
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Login">Sign In</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Panel" asp-action="Index">Admin Panel</a>
                         </li>
+                       
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Logout">Logout</a>
                             </li>
                         }
-                       
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Login">Sign In</a>
+                            </li>
+                        }
+
                     </ul>
                 </div>
             </div>

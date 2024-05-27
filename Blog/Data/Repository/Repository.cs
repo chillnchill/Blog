@@ -32,13 +32,18 @@ namespace Blog.Data.Services
             context.Posts.Remove(GetPost(id));
         }
 
-		public void UpdatePost(Post post)
-		{
-			context.Posts.Update(post);
-		}
+        public void UpdatePost(Post post)
+        {
+            var existingPost = context.Posts.Local.FirstOrDefault(p => p.Id == post.Id);
+            if (existingPost != null)
+            {
+                context.Entry(existingPost).State = EntityState.Detached;
+            }
+            context.Posts.Update(post);
+        }
 
 
-		public async Task<bool> SaveChangesAsync()
+        public async Task<bool> SaveChangesAsync()
         {
             if (await  context.SaveChangesAsync() > 0)
             {

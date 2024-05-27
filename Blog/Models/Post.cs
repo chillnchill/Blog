@@ -10,6 +10,7 @@
         public string Title { get; set; } = null!;
         public string Body { get; set; } = null!;
 
+        public string Image { get; set; } = null!;
         public DateTime CreatedOn { get; set; } 
     }
 }

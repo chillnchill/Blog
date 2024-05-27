@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\Blog.bundle.scp.css"
     },
     {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\content\\blog\\img27-05-2024-16-51-12.jpg",
+      "PackagePath": "staticwebassets\\content\\blog\\img27-05-2024-16-51-12.jpg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\content\\blog\\img27-05-2024-16-55-46.jpg",
+      "PackagePath": "staticwebassets\\content\\blog\\img27-05-2024-16-55-46.jpg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\content\\static\\1.jpeg",
+      "PackagePath": "staticwebassets\\content\\static\\1.jpeg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\content\\static\\2.jpeg",
+      "PackagePath": "staticwebassets\\content\\static\\2.jpeg"
+    },
+    {
       "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

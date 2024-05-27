@@ -1,4 +1,5 @@
 using Blog.Data;
+using Blog.Data.FileManager;
 using Blog.Data.Services;
 using Blog.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -11,12 +12,15 @@ namespace Blog.Controllers
 	public class HomeController : Controller
 	{
 		private IRepository repository;
-		public HomeController(IRepository repository)
-		{
-			this.repository = repository;
-		}
+		private IFileManager fileManager;
 
-		public IActionResult Index()
+        public HomeController(IRepository repository, IFileManager fileManager)
+        {
+            this.repository = repository;
+            this.fileManager = fileManager;
+        }
+
+        public IActionResult Index()
 		{
 			List<Post> posts = repository.GetAllPosts();
 			return View(posts);
@@ -29,73 +33,11 @@ namespace Blog.Controllers
 			return View(post);
 		}
 
-
-		[HttpGet]
-		public IActionResult Edit(string id)
+		[HttpGet("/Image/{image}")]
+		public IActionResult Image(string image)
 		{
-			if (string.IsNullOrEmpty(id))
-			{
-				return View(new Post());
-			}
-
-			Post post = repository.GetPost(id);
-			return View(post);
-		}
-
-		[HttpPost]
-		public async Task<IActionResult> Edit(Post post)
-		{
-
-			if (ModelState.IsValid)
-			{
-				try
-				{
-					Post existingPost = repository.GetPost(post.Id.ToString());
-
-					if (existingPost == null)
-					{
-						repository.AddPost(post);
-					}
-					else
-					{
-						repository.UpdatePost(post);
-					}
-					
-					if (await repository.SaveChangesAsync())
-					{
-						return RedirectToAction("Index");
-					}
-					else
-					{
-						return View(post);
-					}
-				}
-				catch (DbUpdateConcurrencyException)
-				{
-					// Handle concurrency conflict
-					ModelState.AddModelError(string.Empty, "You bumbled");
-					return View(post);
-				}
-			}
-			else
-			{
-				return View(post);
-			}
-		}
-
-        [HttpGet]
-        public async Task<IActionResult> Remove(string id)
-        {
-            
-            repository.RemovePost(id);
-			await repository.SaveChangesAsync();
-			return RedirectToAction("Index");
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-		public IActionResult Error()
-		{
-			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+			string mime = image.Substring(image.LastIndexOf('.') + 1);
+            return new FileStreamResult(fileManager.ImageStream(image), $"image/{mime}");
 		}
 	}
 }

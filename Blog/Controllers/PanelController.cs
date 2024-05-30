@@ -40,8 +40,8 @@ namespace Blog.Controllers
             {
                 Id = post.Id,
                 Title = post.Title,
-                Body = post.Body
-                
+                Body = post.Body,
+                CurrentImage = post.Image
             });
         }
 
@@ -52,11 +52,19 @@ namespace Blog.Controllers
             {
                 Id = viewModel.Id,
                 Title = viewModel.Title,
-                Body = viewModel.Body,
-                Image = await fileManager.SaveImage(viewModel.Image)
+                Body = viewModel.Body,   
             };
 
-            if (ModelState.IsValid)
+			if (viewModel.Image == null)
+			{
+                post.Image = viewModel.CurrentImage;
+			}
+            else
+            {
+				post.Image = await fileManager.SaveImage(viewModel.Image);
+			}
+            
+			if (ModelState.IsValid)
             {
                 try
                 {

@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\content\\blog\\img27-05-2024-16-55-46.jpg"
     },
     {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\content\\blog\\img28-05-2024-18-27-18.jpg",
+      "PackagePath": "staticwebassets\\content\\blog\\img28-05-2024-18-27-18.jpg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\content\\blog\\img29-05-2024-15-31-06.jpeg",
+      "PackagePath": "staticwebassets\\content\\blog\\img29-05-2024-15-31-06.jpeg"
+    },
+    {
       "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\content\\static\\1.jpeg",
       "PackagePath": "staticwebassets\\content\\static\\1.jpeg"
     },
@@ -31,6 +39,1686 @@
     {
       "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\.bowerrc",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\.bowerrc"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\.editorconfig",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\.editorconfig"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\.gitattributes",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\.gitattributes"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\.gitignore",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\.gitignore"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\.jshintrc",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\.jshintrc"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\.npmignore",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\.npmignore"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\BACKERS.md",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\BACKERS.md"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\CONTRIBUTORS.md",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\CONTRIBUTORS.md"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\README.md"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\banner.jpg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\banner.jpg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\bower.json"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ar.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ar.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ar.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\az.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\az.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\az.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\az.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\bg.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\bg.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\bg.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\bn.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\bn.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\bn.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\by.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\by.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\by.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\by.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ca.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ca.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ca.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\cs.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\cs.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\cs.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\da.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\da.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\da.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\da.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\de.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\de.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\de.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\de.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\el.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\el.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\el.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\el.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\es.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\es.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\es.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\es.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\es_ar.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\es_ar.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\es_ar.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\es_ar.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\et.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\et.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\et.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\et.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\fa.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\fa.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\fa.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\fi.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\fi.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\fi.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\fr.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\fr.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\fr.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\he.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\he.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\he.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\he.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\hr.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\hr.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\hr.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\hu.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\hu.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\hu.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\id.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\id.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\id.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\id.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\it.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\it.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\it.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\it.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ja.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ja.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ja.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ko.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ko.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ko.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\lt.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\lt.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\lt.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\mn.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\mn.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\mn.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\mn.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\my.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\my.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\my.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\my.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\nb.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\nb.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\nb.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\nb.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\nl.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\nl.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\nl.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ph.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ph.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ph.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ph.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\pl.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\pl.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\pl.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\pt.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\pt.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\pt.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\pt_br.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\pt_br.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\pt_br.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\pt_br.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ro.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ro.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ro.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\rs.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\rs.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\rs.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\rs.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\rs_latin.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\rs_latin.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\rs_latin.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\rs_latin.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ru.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ru.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ru.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\sk.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\sk.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\sk.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\sl.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\sl.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\sl.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\sq.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\sq.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\sq.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\sq.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\sv.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\sv.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\sv.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\th.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\th.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\th.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\th.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\tr.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\tr.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\tr.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ua.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ua.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\ua.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\ua.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\vi.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\vi.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\vi.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\zh_cn.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\zh_cn.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\zh_cn.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\zh_cn.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\zh_tw.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\zh_tw.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\langs\\zh_tw.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\langs\\zh_tw.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\allowtagsfrompaste\\trumbowyg.allowtagsfrompaste.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\allowtagsfrompaste\\trumbowyg.allowtagsfrompaste.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\allowtagsfrompaste\\trumbowyg.allowtagsfrompaste.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\allowtagsfrompaste\\trumbowyg.allowtagsfrompaste.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\base64\\trumbowyg.base64.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\base64\\trumbowyg.base64.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\base64\\trumbowyg.base64.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\base64\\trumbowyg.base64.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\cleanpaste\\trumbowyg.cleanpaste.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\cleanpaste\\trumbowyg.cleanpaste.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\cleanpaste\\trumbowyg.cleanpaste.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\cleanpaste\\trumbowyg.cleanpaste.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\colors\\trumbowyg.colors.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\colors\\trumbowyg.colors.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\colors\\trumbowyg.colors.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\colors\\trumbowyg.colors.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\colors\\ui\\sass\\trumbowyg.colors.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\colors\\ui\\sass\\trumbowyg.colors.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\colors\\ui\\trumbowyg.colors.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\colors\\ui\\trumbowyg.colors.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\colors\\ui\\trumbowyg.colors.min.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\colors\\ui\\trumbowyg.colors.min.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\emoji\\trumbowyg.emoji.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\emoji\\trumbowyg.emoji.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\emoji\\trumbowyg.emoji.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\emoji\\trumbowyg.emoji.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\emoji\\ui\\sass\\trumbowyg.emoji.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\emoji\\ui\\sass\\trumbowyg.emoji.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\emoji\\ui\\trumbowyg.emoji.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\emoji\\ui\\trumbowyg.emoji.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\emoji\\ui\\trumbowyg.emoji.min.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\emoji\\ui\\trumbowyg.emoji.min.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\fontfamily\\trumbowyg.fontfamily.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\fontfamily\\trumbowyg.fontfamily.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\fontfamily\\trumbowyg.fontfamily.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\fontfamily\\trumbowyg.fontfamily.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\fontsize\\trumbowyg.fontsize.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\fontsize\\trumbowyg.fontsize.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\fontsize\\trumbowyg.fontsize.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\fontsize\\trumbowyg.fontsize.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\giphy\\trumbowyg.giphy.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\giphy\\trumbowyg.giphy.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\giphy\\trumbowyg.giphy.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\giphy\\trumbowyg.giphy.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\giphy\\ui\\sass\\trumbowyg.giphy.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\giphy\\ui\\sass\\trumbowyg.giphy.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\giphy\\ui\\trumbowyg.giphy.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\giphy\\ui\\trumbowyg.giphy.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\giphy\\ui\\trumbowyg.giphy.min.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\giphy\\ui\\trumbowyg.giphy.min.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\highlight\\trumbowyg.highlight.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\highlight\\trumbowyg.highlight.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\highlight\\trumbowyg.highlight.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\highlight\\trumbowyg.highlight.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\highlight\\ui\\sass\\trumbowyg.highlight.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\highlight\\ui\\sass\\trumbowyg.highlight.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\highlight\\ui\\trumbowyg.highlight.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\highlight\\ui\\trumbowyg.highlight.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\highlight\\ui\\trumbowyg.highlight.min.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\highlight\\ui\\trumbowyg.highlight.min.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\history\\trumbowyg.history.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\history\\trumbowyg.history.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\history\\trumbowyg.history.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\history\\trumbowyg.history.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\indent\\trumbowyg.indent.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\indent\\trumbowyg.indent.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\indent\\trumbowyg.indent.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\indent\\trumbowyg.indent.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\insertaudio\\trumbowyg.insertaudio.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\insertaudio\\trumbowyg.insertaudio.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\insertaudio\\trumbowyg.insertaudio.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\insertaudio\\trumbowyg.insertaudio.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\lineheight\\trumbowyg.lineheight.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\lineheight\\trumbowyg.lineheight.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\lineheight\\trumbowyg.lineheight.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\lineheight\\trumbowyg.lineheight.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\mathml\\trumbowyg.mathml.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\mathml\\trumbowyg.mathml.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\mathml\\trumbowyg.mathml.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\mathml\\trumbowyg.mathml.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\mathml\\ui\\sass\\trumbowyg.mathml.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\mathml\\ui\\sass\\trumbowyg.mathml.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\mathml\\ui\\trumbowyg.mathml.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\mathml\\ui\\trumbowyg.mathml.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\mathml\\ui\\trumbowyg.mathml.min.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\mathml\\ui\\trumbowyg.mathml.min.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\mention\\trumbowyg.mention.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\mention\\trumbowyg.mention.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\mention\\trumbowyg.mention.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\mention\\trumbowyg.mention.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\mention\\ui\\sass\\trumbowyg.mention.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\mention\\ui\\sass\\trumbowyg.mention.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\mention\\ui\\trumbowyg.mention.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\mention\\ui\\trumbowyg.mention.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\mention\\ui\\trumbowyg.mention.min.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\mention\\ui\\trumbowyg.mention.min.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\noembed\\trumbowyg.noembed.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\noembed\\trumbowyg.noembed.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\noembed\\trumbowyg.noembed.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\noembed\\trumbowyg.noembed.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\pasteembed\\trumbowyg.pasteembed.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\pasteembed\\trumbowyg.pasteembed.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\pasteembed\\trumbowyg.pasteembed.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\pasteembed\\trumbowyg.pasteembed.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\pasteimage\\trumbowyg.pasteimage.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\pasteimage\\trumbowyg.pasteimage.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\pasteimage\\trumbowyg.pasteimage.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\pasteimage\\trumbowyg.pasteimage.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\preformatted\\trumbowyg.preformatted.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\preformatted\\trumbowyg.preformatted.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\preformatted\\trumbowyg.preformatted.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\preformatted\\trumbowyg.preformatted.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\resizimg\\trumbowyg.resizimg.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\resizimg\\trumbowyg.resizimg.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\resizimg\\trumbowyg.resizimg.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\resizimg\\trumbowyg.resizimg.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\ruby\\trumbowyg.ruby.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\ruby\\trumbowyg.ruby.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\ruby\\trumbowyg.ruby.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\ruby\\trumbowyg.ruby.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\specialchars\\trumbowyg.specialchars.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\specialchars\\trumbowyg.specialchars.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\specialchars\\trumbowyg.specialchars.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\specialchars\\trumbowyg.specialchars.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\specialchars\\ui\\sass\\trumbowyg.specialchars.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\specialchars\\ui\\sass\\trumbowyg.specialchars.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\specialchars\\ui\\trumbowyg.specialchars.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\specialchars\\ui\\trumbowyg.specialchars.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\specialchars\\ui\\trumbowyg.specialchars.min.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\specialchars\\ui\\trumbowyg.specialchars.min.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\table\\trumbowyg.table.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\table\\trumbowyg.table.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\table\\trumbowyg.table.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\table\\trumbowyg.table.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\table\\ui\\sass\\trumbowyg.table.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\table\\ui\\sass\\trumbowyg.table.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\table\\ui\\trumbowyg.table.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\table\\ui\\trumbowyg.table.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\table\\ui\\trumbowyg.table.min.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\table\\ui\\trumbowyg.table.min.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\template\\trumbowyg.template.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\template\\trumbowyg.template.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\template\\trumbowyg.template.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\template\\trumbowyg.template.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\upload\\trumbowyg.upload.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\upload\\trumbowyg.upload.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\plugins\\upload\\trumbowyg.upload.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\plugins\\upload\\trumbowyg.upload.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\trumbowyg.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\trumbowyg.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\trumbowyg.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\trumbowyg.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\ui\\icons.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\ui\\icons.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\ui\\sass\\trumbowyg.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\ui\\sass\\trumbowyg.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\ui\\trumbowyg.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\ui\\trumbowyg.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\dist\\ui\\trumbowyg.min.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\dist\\ui\\trumbowyg.min.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\.gitignore",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\.gitignore"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\.jshintrc",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\.jshintrc"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\css\\main.css",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\css\\main.css"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\core\\dark-theme.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\core\\dark-theme.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\core\\default.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\core\\default.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\core\\simple.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\core\\simple.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\index.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\js\\highlight.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\js\\highlight.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\js\\loader.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\js\\loader.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\js\\runExampleCode.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\js\\runExampleCode.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\allowtagsfrompaste.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\allowtagsfrompaste.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\base64.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\base64.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\cleanpaste.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\cleanpaste.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\colors.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\colors.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\emoji.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\emoji.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\fontfamily.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\fontfamily.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\fontsize.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\fontsize.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\giphy.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\giphy.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\highlight.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\highlight.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\history.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\history.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\indent.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\indent.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\insertaudio.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\insertaudio.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\lineheight.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\lineheight.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\mathml.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\mathml.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\mention.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\mention.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\noembed.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\noembed.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\pasteembed.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\pasteembed.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\pasteimage.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\pasteimage.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\preformatted.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\preformatted.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\resizimg.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\resizimg.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\ruby.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\ruby.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\specialchars.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\specialchars.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\table.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\table.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\template.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\template.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\upload.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\demos\\plugins\\upload.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\documentation.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\documentation.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\documentation\\core\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\documentation\\core\\index.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\documentation\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\documentation\\index.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\documentation\\plugins\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\documentation\\plugins\\index.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\favicon.png",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\favicon.png"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\fonts\\jetbrains-mono-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\fonts\\jetbrains-mono-regular.woff2"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\fonts\\open-sans-light.woff2",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\fonts\\open-sans-light.woff2"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\fonts\\open-sans-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\fonts\\open-sans-regular.woff2"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\fonts\\open-sans-semibold.woff2",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\fonts\\open-sans-semibold.woff2"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\fonts\\panton.eot",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\fonts\\panton.eot"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\fonts\\panton.ttf",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\fonts\\panton.ttf"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\fonts\\panton.woff",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\fonts\\panton.woff"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\fonts\\panton.woff2",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\fonts\\panton.woff2"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\gulpfile.mjs",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\gulpfile.mjs"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\humans.txt",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\humans.txt"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\img\\beer.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\img\\beer.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\img\\globe.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\img\\globe.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\img\\introduction-customizable.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\img\\introduction-customizable.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\img\\introduction-html.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\img\\introduction-html.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\img\\introduction-lightweight.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\img\\introduction-lightweight.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\img\\logo-doc.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\img\\logo-doc.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\img\\logo.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\index.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\js\\main.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\js\\main.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\js\\vendor\\highlight.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\js\\vendor\\highlight.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\js\\vendor\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\js\\vendor\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\package.json"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\robots.txt",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\robots.txt"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_base.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_base.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_documentation.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_documentation.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_donate.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_donate.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_font.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_font.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_footer.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_get-started.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_get-started.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_header.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_header.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_highlightjs-github.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_highlightjs-github.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_introduction.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_introduction.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_languages.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_languages.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_normalize.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_normalize.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_plugins-packages.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_plugins-packages.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_section.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_section.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\_variables.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\scss\\main.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\docs\\yarn.lock",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\docs\\yarn.lock"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\gulpfile.mjs",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\gulpfile.mjs"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\index.html"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\package-lock.json",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\package-lock.json"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\package.json"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\allowtagsfrompaste\\trumbowyg.allowtagsfrompaste.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\allowtagsfrompaste\\trumbowyg.allowtagsfrompaste.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\base64\\trumbowyg.base64.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\base64\\trumbowyg.base64.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\base64\\ui\\icons\\base64.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\base64\\ui\\icons\\base64.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\cleanpaste\\trumbowyg.cleanpaste.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\cleanpaste\\trumbowyg.cleanpaste.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\colors\\trumbowyg.colors.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\colors\\trumbowyg.colors.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\colors\\ui\\icons\\back-color.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\colors\\ui\\icons\\back-color.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\colors\\ui\\icons\\fore-color.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\colors\\ui\\icons\\fore-color.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\colors\\ui\\sass\\trumbowyg.colors.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\colors\\ui\\sass\\trumbowyg.colors.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\emoji\\trumbowyg.emoji.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\emoji\\trumbowyg.emoji.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\emoji\\ui\\icons\\emoji.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\emoji\\ui\\icons\\emoji.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\emoji\\ui\\sass\\trumbowyg.emoji.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\emoji\\ui\\sass\\trumbowyg.emoji.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\fontfamily\\trumbowyg.fontfamily.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\fontfamily\\trumbowyg.fontfamily.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\fontsize\\trumbowyg.fontsize.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\fontsize\\trumbowyg.fontsize.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\fontsize\\ui\\icons\\fontsize.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\fontsize\\ui\\icons\\fontsize.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\giphy\\trumbowyg.giphy.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\giphy\\trumbowyg.giphy.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\giphy\\ui\\icons\\giphy.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\giphy\\ui\\icons\\giphy.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\giphy\\ui\\sass\\trumbowyg.giphy.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\giphy\\ui\\sass\\trumbowyg.giphy.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\highlight\\trumbowyg.highlight.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\highlight\\trumbowyg.highlight.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\highlight\\ui\\icons\\highlight.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\highlight\\ui\\icons\\highlight.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\highlight\\ui\\sass\\trumbowyg.highlight.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\highlight\\ui\\sass\\trumbowyg.highlight.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\history\\trumbowyg.history.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\history\\trumbowyg.history.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\indent\\trumbowyg.indent.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\indent\\trumbowyg.indent.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\indent\\ui\\icons\\indent.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\indent\\ui\\icons\\indent.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\indent\\ui\\icons\\outdent.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\indent\\ui\\icons\\outdent.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\insertaudio\\trumbowyg.insertaudio.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\insertaudio\\trumbowyg.insertaudio.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\insertaudio\\ui\\icons\\insert-audio.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\insertaudio\\ui\\icons\\insert-audio.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\lineheight\\trumbowyg.lineheight.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\lineheight\\trumbowyg.lineheight.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\lineheight\\ui\\icons\\lineheight.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\lineheight\\ui\\icons\\lineheight.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\mathml\\trumbowyg.mathml.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\mathml\\trumbowyg.mathml.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\mathml\\ui\\icons\\mathml.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\mathml\\ui\\icons\\mathml.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\mathml\\ui\\sass\\trumbowyg.mathml.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\mathml\\ui\\sass\\trumbowyg.mathml.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\mention\\trumbowyg.mention.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\mention\\trumbowyg.mention.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\mention\\ui\\icons\\mention.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\mention\\ui\\icons\\mention.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\mention\\ui\\sass\\trumbowyg.mention.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\mention\\ui\\sass\\trumbowyg.mention.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\noembed\\trumbowyg.noembed.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\noembed\\trumbowyg.noembed.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\noembed\\ui\\icons\\noembed.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\noembed\\ui\\icons\\noembed.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\pasteembed\\trumbowyg.pasteembed.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\pasteembed\\trumbowyg.pasteembed.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\pasteimage\\trumbowyg.pasteimage.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\pasteimage\\trumbowyg.pasteimage.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\preformatted\\trumbowyg.preformatted.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\preformatted\\trumbowyg.preformatted.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\preformatted\\ui\\icons\\preformatted.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\preformatted\\ui\\icons\\preformatted.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\resizimg\\trumbowyg.resizimg.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\resizimg\\trumbowyg.resizimg.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\ruby\\trumbowyg.ruby.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\ruby\\trumbowyg.ruby.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\ruby\\ui\\icons\\ruby.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\ruby\\ui\\icons\\ruby.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\specialchars\\trumbowyg.specialchars.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\specialchars\\trumbowyg.specialchars.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\specialchars\\ui\\icons\\special-chars.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\specialchars\\ui\\icons\\special-chars.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\specialchars\\ui\\sass\\trumbowyg.specialchars.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\specialchars\\ui\\sass\\trumbowyg.specialchars.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\trumbowyg.table.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\trumbowyg.table.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\align-bottom.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\align-bottom.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\align-middle.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\align-middle.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\align-top.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\align-top.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\col-delete.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\col-delete.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\col-left.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\col-left.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\col-right.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\col-right.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\header-row.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\header-row.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\row-above.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\row-above.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\row-below.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\row-below.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\row-delete.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\row-delete.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table-border-color.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table-border-color.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table-cell-background-color.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table-cell-background-color.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table-delete.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table-delete.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table-merge.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table-merge.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table-unmerge.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table-unmerge.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\icons\\table.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\table\\ui\\sass\\trumbowyg.table.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\table\\ui\\sass\\trumbowyg.table.scss"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\template\\trumbowyg.template.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\template\\trumbowyg.template.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\upload\\trumbowyg.upload.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\upload\\trumbowyg.upload.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\plugins\\upload\\ui\\icons\\upload.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\plugins\\upload\\ui\\icons\\upload.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\sponsors\\avot.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\sponsors\\avot.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\sponsors\\socialoptic.png",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\sponsors\\socialoptic.png"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\ar.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\az.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\az.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\bg.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\bn.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\by.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\by.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\ca.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\cs.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\da.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\da.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\de.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\de.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\el.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\el.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\en.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\en.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\es.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\es.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\es_ar.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\es_ar.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\et.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\et.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\fa.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\fi.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\fr.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\he.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\he.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\hr.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\hu.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\id.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\id.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\it.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\it.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\ja.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\ko.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\lt.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\mn.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\mn.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\my.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\my.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\nb.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\nb.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\nl.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\ph.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\ph.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\pl.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\pt.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\pt_br.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\pt_br.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\ro.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\rs.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\rs.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\rs_latin.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\rs_latin.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\ru.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\sk.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\sl.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\sq.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\sq.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\sv.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\th.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\th.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\tr.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\ua.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\ua.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\vi.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\zh_cn.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\zh_cn.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\langs\\zh_tw.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\langs\\zh_tw.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\trumbowyg.js",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\trumbowyg.js"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\blockquote.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\blockquote.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\bold.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\bold.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\close.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\close.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\create-link.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\create-link.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\del.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\del.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\em.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\em.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\fullscreen.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\fullscreen.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\h1.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\h1.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\h2.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\h2.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\h3.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\h3.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\h4.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\h4.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\h5.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\h5.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\h6.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\h6.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\horizontal-rule.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\horizontal-rule.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\insert-image.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\insert-image.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\italic.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\italic.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\justify-center.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\justify-center.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\justify-full.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\justify-full.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\justify-left.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\justify-left.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\justify-right.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\justify-right.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\link.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\link.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\ordered-list.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\ordered-list.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\p.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\p.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\redo.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\redo.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\removeformat.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\removeformat.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\strikethrough.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\strikethrough.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\strong.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\strong.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\subscript.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\subscript.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\superscript.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\superscript.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\underline.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\underline.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\undo.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\undo.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\unlink.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\unlink.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\unordered-list.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\unordered-list.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\icons\\view-html.svg",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\icons\\view-html.svg"
+    },
+    {
+      "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\Trumbowyg-main\\src\\ui\\sass\\trumbowyg.scss",
+      "PackagePath": "staticwebassets\\lib\\Trumbowyg-main\\src\\ui\\sass\\trumbowyg.scss"
     },
     {
       "Id": "F:\\CodeProjects\\Blog\\Blog\\wwwroot\\lib\\bootstrap\\LICENSE",

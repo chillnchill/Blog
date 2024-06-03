@@ -22,6 +22,9 @@ namespace Blog.Controllers
 
         public IActionResult Index()
 		{
+			ViewData["Title"] = "Blog";
+			ViewData["Description"] = "Where I write my words";
+			ViewData["Keywords"] = "blog, programming, games, books";
 			List<Post> posts = repository.GetAllPosts();
 			return View(posts);
 		}
@@ -29,7 +32,11 @@ namespace Blog.Controllers
 		[HttpGet]
 		public IActionResult Post(string id)
 		{
+
 			Post post = repository.GetPost(id);
+			ViewData["Title"] = post.Title;
+			ViewData["Description"] = post.Description;
+			ViewData["Keywords"] = post.Tags;
 			return View(post);
 		}
 

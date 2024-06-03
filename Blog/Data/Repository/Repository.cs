@@ -22,7 +22,14 @@ namespace Blog.Data.Services
             return context.Posts.ToList();
         }
 
-        public Post GetPost(string id)
+		public List<Post> GetAllPosts(string category)
+		{
+			return context.Posts
+				.Where(post => post.Category.ToLower().Equals(category.ToLower()))
+				.ToList();
+		}
+
+		public Post GetPost(string id)
         {
             return context.Posts.FirstOrDefault(p => p.Id.ToString() == id);
         }
@@ -52,6 +59,6 @@ namespace Blog.Data.Services
             return false;
         }
 
-	
+		
 	}
 }

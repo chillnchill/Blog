@@ -20,12 +20,12 @@ namespace Blog.Controllers
             this.fileManager = fileManager;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string category)
 		{
 			ViewData["Title"] = "Blog";
 			ViewData["Description"] = "Where I write my words";
 			ViewData["Keywords"] = "blog, programming, games, books";
-			List<Post> posts = repository.GetAllPosts();
+			List<Post> posts = string.IsNullOrEmpty(category) ? repository.GetAllPosts() : repository.GetAllPosts(category);
 			return View(posts);
 		}
 

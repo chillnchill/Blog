@@ -7,6 +7,7 @@ namespace Blog.Data.Services
         Post GetPost(string id);
         //FrontPostViewModel GetFrontPost(int id);
         List<Post> GetAllPosts();
+        List<Post> GetAllPosts(string category);
         //IndexViewModel GetAllPosts(int pageNumber, string category, string search);
         void AddPost(Post post);
         void UpdatePost(Post post);

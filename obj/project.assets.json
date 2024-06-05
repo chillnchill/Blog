@@ -4523,11 +4523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\CodeProjects\\Blog\\Blog\\Blog.csproj",
+      "projectUniqueName": "F:\\CodeProjects\\Blog\\Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "F:\\CodeProjects\\Blog\\Blog\\Blog.csproj",
+      "projectPath": "F:\\CodeProjects\\Blog\\Blog.csproj",
       "packagesPath": "C:\\Users\\jojoc\\.nuget\\packages\\",
-      "outputPath": "F:\\CodeProjects\\Blog\\Blog\\obj\\",
+      "outputPath": "F:\\CodeProjects\\Blog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jojoc\\AppData\\Roaming\\NuGet\\NuGet.Config",

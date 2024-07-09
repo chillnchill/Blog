@@ -1,5 +1,6 @@
 ﻿using Blog.Data;
 using Blog.Models;
+using Blog.Models.Comments;
 using Microsoft.EntityFrameworkCore;
 
 namespace Blog.Data.Services
@@ -31,7 +32,12 @@ namespace Blog.Data.Services
 
 		public Post GetPost(string id)
         {
-            return context.Posts.FirstOrDefault(p => p.Id.ToString() == id);
+            Post post = context.Posts
+                .Include(p => p.MainComments)
+                .ThenInclude(p => p.SubComments)
+                .First(p => p.Id.ToString() == id);
+
+            return post;
         }
 
         public void RemovePost(string id)
@@ -49,8 +55,11 @@ namespace Blog.Data.Services
             context.Posts.Update(post);
         }
 
-
-        public async Task<bool> SaveChangesAsync()
+		public void AddSubComment(SubComment comment)
+		{
+			context.Add(comment);
+		}
+		public async Task<bool> SaveChangesAsync()
         {
             if (await  context.SaveChangesAsync() > 0)
             {

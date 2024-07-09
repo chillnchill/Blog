@@ -1,11 +1,5 @@
 ﻿@model PostViewModel
 
-@{
-
-}
-
-<link href="~/lib/trumbowyg-main/dist/ui/trumbowyg.min.css" rel="stylesheet" />
-
 <div>
 	@* the encryption type must be set to multipart/form-data, otherwise the image you try to upload will be null. *@
 	<form asp-controller="Panel" asp-action="Edit" method="Post" enctype="multipart/form-data">
@@ -24,7 +18,7 @@
 		</div>
 		<div>
 			<label>Category</label>
-			<select asp-for="Category" >
+			<select asp-for="Category">
 				<option value="Games">Games</option>
 				<option value="Books">Books</option>
 				<option value="Programming">Programming</option>
@@ -44,10 +38,9 @@
 </div>
 
 @section Scripts {
-	@* add jquery if it doesn't work like this' *@
-	@* <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> *@
-	<script src="~/lib/trumbowyg-main/dist/trumbowyg.min.js"></script>
 	<script>
-		$('#editor').trumbowyg();
+		$(document).ready(function () {
+			$('#editor').trumbowyg();
+		});
 	</script>
 }

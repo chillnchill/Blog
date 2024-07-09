@@ -1,4 +1,5 @@
 ﻿using Blog.Models;
+using Blog.Models.Comments;
 
 namespace Blog.Data.Services
 {
@@ -12,8 +13,9 @@ namespace Blog.Data.Services
         void AddPost(Post post);
         void UpdatePost(Post post);
         void RemovePost(string id);
-        //void AddSubComment(SubComment comment);
-        Task<bool> SaveChangesAsync();
+		//void AddSubComment(SubComment comment);
+		void AddSubComment(SubComment comment);
+		Task<bool> SaveChangesAsync();
 
 
     }

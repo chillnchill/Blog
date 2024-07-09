@@ -2,6 +2,8 @@ using Blog.Data;
 using Blog.Data.FileManager;
 using Blog.Data.Services;
 using Blog.Models;
+using Blog.Models.Comments;
+using Blog.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -46,5 +48,42 @@ namespace Blog.Controllers
 			string mime = image.Substring(image.LastIndexOf('.') + 1);
             return new FileStreamResult(fileManager.ImageStream(image), $"image/{mime}");
 		}
+
+		[HttpPost]
+		public async Task<IActionResult> Comment(CommentViewModel vm)
+		{
+			if (!ModelState.IsValid)
+				return RedirectToAction("Post", new { id = vm.PostId });
+
+			Post post = repository.GetPost(vm.PostId);
+
+			if (vm.MainCommentId == 0)
+			{
+				post.MainComments = post.MainComments ?? new List<MainComment>();
+
+				post.MainComments.Add(new MainComment
+				{
+					Message = vm.Message,
+					CreatedOn = DateTime.Now,
+				});
+
+				repository.UpdatePost(post);
+			}
+			else
+			{
+				var comment = new SubComment
+				{
+					MainCommentId = vm.MainCommentId,
+					Message = vm.Message,
+					CreatedOn = DateTime.Now,
+				};
+				repository.AddSubComment(comment);
+			}
+
+			await repository.SaveChangesAsync();
+
+			return RedirectToAction("Post", new { id = vm.PostId });
+		}
+
 	}
 }

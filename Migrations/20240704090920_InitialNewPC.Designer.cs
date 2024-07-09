@@ -4,6 +4,7 @@ using Blog.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Blog.Migrations
 {
     [DbContext(typeof(BlogDbContext))]
-    partial class BlogDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240704090920_InitialNewPC")]
+    partial class InitialNewPC
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,37 +24,6 @@ namespace Blog.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("Blog.Models.Comments.Comment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreatedOn")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
-
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasMaxLength(13)
-                        .HasColumnType("nvarchar(13)");
-
-                    b.Property<string>("Message")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Comment");
-
-                    b.HasDiscriminator<string>("Discriminator").HasValue("Comment");
-
-                    b.UseTphMappingStrategy();
-                });
 
             modelBuilder.Entity("Blog.Models.Post", b =>
                 {
@@ -70,7 +42,7 @@ namespace Blog.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
+                        .HasDefaultValueSql("GETDATE()");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -291,30 +263,6 @@ namespace Blog.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Blog.Models.Comments.MainComment", b =>
-                {
-                    b.HasBaseType("Blog.Models.Comments.Comment");
-
-                    b.Property<Guid?>("PostId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasIndex("PostId");
-
-                    b.HasDiscriminator().HasValue("MainComment");
-                });
-
-            modelBuilder.Entity("Blog.Models.Comments.SubComment", b =>
-                {
-                    b.HasBaseType("Blog.Models.Comments.Comment");
-
-                    b.Property<int>("MainCommentId")
-                        .HasColumnType("int");
-
-                    b.HasIndex("MainCommentId");
-
-                    b.HasDiscriminator().HasValue("SubComment");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -364,35 +312,6 @@ namespace Blog.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Blog.Models.Comments.MainComment", b =>
-                {
-                    b.HasOne("Blog.Models.Post", null)
-                        .WithMany("MainComments")
-                        .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("Blog.Models.Comments.SubComment", b =>
-                {
-                    b.HasOne("Blog.Models.Comments.MainComment", "MainComment")
-                        .WithMany("SubComments")
-                        .HasForeignKey("MainCommentId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("MainComment");
-                });
-
-            modelBuilder.Entity("Blog.Models.Post", b =>
-                {
-                    b.Navigation("MainComments");
-                });
-
-            modelBuilder.Entity("Blog.Models.Comments.MainComment", b =>
-                {
-                    b.Navigation("SubComments");
                 });
 #pragma warning restore 612, 618
         }

@@ -10,7 +10,13 @@ namespace Blog.Data.Configurations
 		{
 			builder
 			   .Property(r => r.CreatedOn)
-			   .HasDefaultValueSql("GETDATE()");
+			   .HasDefaultValueSql("GETUTCDATE()");
+
+			builder
+				.HasMany(p => p.MainComments)
+				.WithOne()
+				.OnDelete(DeleteBehavior.Cascade);
+
 		}
 	}
 }

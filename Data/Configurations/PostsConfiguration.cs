@@ -16,7 +16,6 @@ namespace Blog.Data.Configurations
 				.HasMany(p => p.MainComments)
 				.WithOne()
 				.OnDelete(DeleteBehavior.Cascade);
-
 		}
 	}
 }

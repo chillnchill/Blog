@@ -22,12 +22,20 @@ namespace Blog.Controllers
             this.fileManager = fileManager;
         }
 
-        public IActionResult Index(string category)
+        public IActionResult Index(string category, int pageNumber)
 		{
 			ViewData["Title"] = "Blog";
 			ViewData["Description"] = "Where I write my words";
 			ViewData["Keywords"] = "blog, programming, games, books";
-			List<Post> posts = string.IsNullOrEmpty(category) ? repository.GetAllPosts() : repository.GetAllPosts(category);
+
+			if (pageNumber < 1)
+			{
+				return RedirectToAction("Index", new {pageNumber = 1, category});
+			}
+
+			List<Post> posts = string.IsNullOrEmpty(category)
+					? repository.GetAllPostsForPagination(pageNumber)
+					: repository.GetAllPosts(category);
 			return View(posts);
 		}
 

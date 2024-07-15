@@ -571,3 +571,4 @@ C:\Users\chillibeans\Desktop\Blog\Blog\obj\Debug\net8.0\refint\Blog.dll
 C:\Users\chillibeans\Desktop\Blog\Blog\obj\Debug\net8.0\Blog.pdb
 C:\Users\chillibeans\Desktop\Blog\Blog\obj\Debug\net8.0\Blog.genruntimeconfig.cache
 C:\Users\chillibeans\Desktop\Blog\Blog\obj\Debug\net8.0\ref\Blog.dll
+F:\CodeProjects\Blog\obj\Debug\net8.0\Blog.sourcelink.json

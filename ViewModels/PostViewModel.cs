@@ -12,5 +12,6 @@
 
 		//this format is for media
 		public IFormFile? Image { get; set; }
-	}
+
+    }
 }

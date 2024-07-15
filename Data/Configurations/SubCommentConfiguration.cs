@@ -14,7 +14,6 @@ namespace Blog.Data.Configurations
 				.WithMany(mc => mc.SubComments)
 				.HasForeignKey(sc => sc.MainCommentId)
 				.OnDelete(DeleteBehavior.Restrict);
-
 		}
 	}
 }

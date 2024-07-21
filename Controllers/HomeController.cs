@@ -6,7 +6,9 @@ using Blog.Models.Comments;
 using Blog.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace Blog.Controllers
@@ -16,13 +18,13 @@ namespace Blog.Controllers
 		private IRepository repository;
 		private IFileManager fileManager;
 
-        public HomeController(IRepository repository, IFileManager fileManager)
-        {
-            this.repository = repository;
-            this.fileManager = fileManager;
-        }
+		public HomeController(IRepository repository, IFileManager fileManager)
+		{
+			this.repository = repository;
+			this.fileManager = fileManager;
+		}
 
-        public IActionResult Index(string category, int pageNumber)
+		public IActionResult Index(string category, int pageNumber = 1)
 		{
 			ViewData["Title"] = "Blog";
 			ViewData["Description"] = "Where I write my words";
@@ -30,13 +32,12 @@ namespace Blog.Controllers
 
 			if (pageNumber < 1)
 			{
-				return RedirectToAction("Index", new {pageNumber = 1, category});
+				return RedirectToAction("Index", new { pageNumber = 1, category });
 			}
 
-			List<Post> posts = string.IsNullOrEmpty(category)
-					? repository.GetAllPostsForPagination(pageNumber)
-					: repository.GetAllPosts(category);
-			return View(posts);
+			IndexViewModel vm = repository.GetAllPostsForPagination(pageNumber, category);
+
+			return View(vm);
 		}
 
 		[HttpGet]
@@ -54,7 +55,7 @@ namespace Blog.Controllers
 		public IActionResult Image(string image)
 		{
 			string mime = image.Substring(image.LastIndexOf('.') + 1);
-            return new FileStreamResult(fileManager.ImageStream(image), $"image/{mime}");
+			return new FileStreamResult(fileManager.ImageStream(image), $"image/{mime}");
 		}
 
 		[HttpPost]

@@ -1040,6 +1040,22 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "PhotoSauce.MagicScaler/0.14.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/PhotoSauce.MagicScaler.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/PhotoSauce.MagicScaler.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net6.0/PhotoSauce.MagicScaler.targets": {}
+        }
+      },
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
@@ -3334,6 +3350,37 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "PhotoSauce.MagicScaler/0.14.2": {
+      "sha512": "rVz7Fb3/hyTLIP6NikCnnAiIz3vl5yfOooyehVz0FFsZCSd+UFgNTOjTvI+4xhpoQs08/RjU6DQz181qxzzRVA==",
+      "type": "package",
+      "path": "photosauce.magicscaler/0.14.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PhotoSauce.png",
+        "build/net6.0/PhotoSauce.MagicScaler.targets",
+        "build/netcoreapp3.0/PhotoSauce.MagicScaler.targets",
+        "lib/net461/PhotoSauce.MagicScaler.dll",
+        "lib/net461/PhotoSauce.MagicScaler.xml",
+        "lib/net472/PhotoSauce.MagicScaler.dll",
+        "lib/net472/PhotoSauce.MagicScaler.xml",
+        "lib/net6.0/PhotoSauce.MagicScaler.dll",
+        "lib/net6.0/PhotoSauce.MagicScaler.xml",
+        "lib/net7.0/PhotoSauce.MagicScaler.dll",
+        "lib/net7.0/PhotoSauce.MagicScaler.xml",
+        "lib/net8.0/PhotoSauce.MagicScaler.dll",
+        "lib/net8.0/PhotoSauce.MagicScaler.xml",
+        "lib/netstandard2.0/PhotoSauce.MagicScaler.dll",
+        "lib/netstandard2.0/PhotoSauce.MagicScaler.xml",
+        "lib/netstandard2.1/PhotoSauce.MagicScaler.dll",
+        "lib/netstandard2.1/PhotoSauce.MagicScaler.xml",
+        "license",
+        "photosauce.magicscaler.0.14.2.nupkg.sha512",
+        "photosauce.magicscaler.nuspec",
+        "readme.md",
+        "third-party-notices"
+      ]
+    },
     "System.CodeDom/4.4.0": {
       "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
       "type": "package",
@@ -4514,7 +4561,8 @@
       "Microsoft.AspNetCore.Identity.UI >= 8.0.4",
       "Microsoft.EntityFrameworkCore >= 8.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.4"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
+      "PhotoSauce.MagicScaler >= 0.14.2"
     ]
   },
   "packageFolders": {
@@ -4577,6 +4625,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.4, )"
+          },
+          "PhotoSauce.MagicScaler": {
+            "target": "Package",
+            "version": "[0.14.2, )"
           }
         },
         "imports": [

@@ -32,25 +32,41 @@ namespace Blog.Data.Services
 				.ToList();
 		}
 
-		public List<Post> GetAllPostsForPagination(int pageNumber)
+		public IndexViewModel GetAllPostsForPagination(int pageNumber, string category)
 		{
 			int postsPerPage = 3;
+			int postsToSkip = postsPerPage * (pageNumber - 1);
 
-			List<Post> posts = context
-				.Posts
-				.Skip(postsPerPage * (pageNumber - 1))
+			IQueryable<Post> query = context.Posts.AsQueryable();
+
+			if (!string.IsNullOrEmpty(category))
+			{
+				query = query.Where(p => p.Category == category);
+			}
+
+			int postsCount = query.Count(); // Count posts after filtering by category
+			int pageCount = (int)Math.Ceiling((double)postsCount / postsPerPage); // Calculate total pages
+
+			List<Post> posts = query
+				.Skip(postsToSkip)
 				.Take(postsPerPage)
 				.ToList();
 
-			return posts;
+			return new IndexViewModel()
+			{
+				PageNumber = pageNumber,
+				PageCount = pageCount,
+				NextPage = pageNumber < pageCount,
+				Posts = posts
+			};
 		}
 
 		public Post GetPost(string id)
 		{
-			Post post = context.Posts
+			Post? post = context.Posts
 				.Include(p => p.MainComments)
 				.ThenInclude(p => p.SubComments)
-				.First(p => p.Id.ToString() == id);
+				.FirstOrDefault(p => p.Id.ToString() == id);
 
 			return post;
 		}

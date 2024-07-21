@@ -12,7 +12,8 @@
           "Microsoft.AspNetCore.Identity.UI": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.4"
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
+          "PhotoSauce.MagicScaler": "0.14.2"
         },
         "runtime": {
           "Blog.dll": {}
@@ -696,6 +697,14 @@
           }
         }
       },
+      "PhotoSauce.MagicScaler/0.14.2": {
+        "runtime": {
+          "lib/net8.0/PhotoSauce.MagicScaler.dll": {
+            "assemblyVersion": "0.14.2.0",
+            "fileVersion": "0.14.2.0"
+          }
+        }
+      },
       "System.CodeDom/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -1307,6 +1316,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "PhotoSauce.MagicScaler/0.14.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rVz7Fb3/hyTLIP6NikCnnAiIz3vl5yfOooyehVz0FFsZCSd+UFgNTOjTvI+4xhpoQs08/RjU6DQz181qxzzRVA==",
+      "path": "photosauce.magicscaler/0.14.2",
+      "hashPath": "photosauce.magicscaler.0.14.2.nupkg.sha512"
     },
     "System.CodeDom/4.4.0": {
       "type": "package",

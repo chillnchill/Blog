@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2SLkQpucQPkyoUHXx1VBek+yC4lVf+ybk0iwlrlRqAdizhdfr5zty0YfPwNWEYp0ehHG/9IqFzXGX2P6FOpebQ==",
+  "dgSpecHash": "EhcvGKCMFBPv5X9ESjbyHNjyUQ8ZKyJHCQUv1c4/8udvUea5vjp9EbFqYkiipeOmwTAIR5d1+erDjPD99WnK+Q==",
   "success": true,
   "projectFilePath": "F:\\CodeProjects\\Blog\\Blog.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\jojoc\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\jojoc\\.nuget\\packages\\photosauce.magicscaler\\0.14.2\\photosauce.magicscaler.0.14.2.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",

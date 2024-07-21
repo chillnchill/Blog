@@ -2,20 +2,23 @@
 
 
 <div class="container">
+	<h1>@Model.Title</h1>
+	<hr />
 	<div class="post shadow-none">
+		
 		@if (!String.IsNullOrEmpty(Model.Image))
 		{
 			string imagePath = $"/Image/{Model.Image}";
 			<img src="@imagePath" />
-			<span>@Model.Title</span>
 		}
-	</div>
+	</div>	
 	<div class="post-body">
 		@Html.Raw(@Model.Body)
 	</div>
 </div>
-<div>
-	@if (User?.Identity?.IsAuthenticated == false)
+
+<div class="comments">
+	@if (User.Identity.IsAuthenticated)
 	{
 		<div class="comment-section">
 			@{

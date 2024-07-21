@@ -1,26 +1,39 @@
-﻿@model IEnumerable<Post>
+﻿@model Blog.ViewModels.IndexViewModel
 
 @{
-	// ViewData["Title"] = "Blog";
-	// ViewData["Description"] = "Where I write my words";
-	// ViewData["Keywords"] = "blog, programming, games, books";
+    
 }
 
-
 <div class="main-img">
-	<span class="title">Blog for cool, cool people. That's me, the cool people.'</span>
+    <span class="title">Blog for cool, cool people. That's me, the cool people.'</span>
 </div>
 
 <div class="container">
-	@foreach (var post in Model)
-	{
-		string imagePath = $"/Image/{post.Image}";
+    @foreach (var post in Model.Posts)
+    {
+        string imagePath = $"/Image/{post.Image}";
 
-		<a class="post" asp-controller="Home" asp-action="Post" asp-route-id="@post.Id">
-			<img src="@imagePath"/>
-			<span class="title">
-				@post.Title
-			</span>
-		</a>
-	}
+        <a class="post" asp-controller="Home" asp-action="Post" asp-route-id="@post.Id">
+            <img src="@imagePath" />
+            <span class="title">
+                @post.Title
+            </span>
+        </a>
+    }
+</div>
+
+<div class="pagination">
+    @if (Model.PageNumber > 1)
+    {
+        <a class="btn btn-primary" asp-controller="Home" asp-action="Index" asp-route-pageNumber="@(Model.PageNumber - 1)">
+            Previous
+        </a>
+    }
+
+    @if (Model.NextPage)
+    {
+        <a class="btn btn-primary" asp-controller="Home" asp-action="Index" asp-route-pageNumber="@(Model.PageNumber + 1)">
+            Next
+        </a>
+    }
 </div>

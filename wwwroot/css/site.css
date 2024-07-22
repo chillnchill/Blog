@@ -104,7 +104,7 @@ nav {
     overflow: hidden;    
 }
 
-.comments p  {
+.comments p, h4, h3 {
     color: antiquewhite;
 }
 

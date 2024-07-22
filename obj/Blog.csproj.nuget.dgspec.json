@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "PhotoSauce.MagicScaler": {
               "target": "Package",
               "version": "[0.14.2, )"

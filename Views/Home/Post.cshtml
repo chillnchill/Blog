@@ -1,17 +1,17 @@
 ﻿@model Post
 
 <div class="container mt-5">
-	<div class="container">
+	<div class="post-container">
 		<h1>@Model.Title</h1>
 		<hr />
-		<div class="post shadow-none">
 
+		<div class="post-image">
 			@if (!String.IsNullOrEmpty(Model.Image))
 			{
-				string imagePath = $"/Image/{Model.Image}";
-				<img src="@imagePath" />
+				<img src="@Url.Content($"/Image/{Model.Image}")" class="img-fluid" alt="Post Image" />
 			}
 		</div>
+
 		<div class="post-body">
 			@Html.Raw(@Model.Body)
 		</div>
@@ -19,22 +19,23 @@
 
 	<hr />
 
-	<div class="comments">
+	<div class="comments-section">
 		@if (User.Identity.IsAuthenticated)
 		{
-			<div class="comment-section">
+			<div class="add-comment">
 				@{
 					await Html.RenderPartialAsync("_MainComment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = 0 });
 				}
+			</div>
 
-				@foreach (var mc in Model.MainComments)
-				{
+			@foreach (var mc in Model.MainComments)
+			{
+				<div class="main-comment mt-4">
 					<hr />
+					<h3>Main Comment</h3>
+					<p>@Html.Raw(mc.Message) --- @mc.CreatedOn.ToString("g")</p>
 
-					<p>
-						@Html.Raw(mc.Message) --- @mc.CreatedOn
-					</p>
-					<div style="margin-left: 20px;">
+					<div class="sub-comments ml-4">
 						<h4>Sub Comments</h4>
 						@{
 							await Html.RenderPartialAsync("_MainComment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = mc.Id });
@@ -42,30 +43,19 @@
 
 						@foreach (var sc in mc.SubComments)
 						{
-							<p>
-								@sc.Message --- @sc.CreatedOn
-							</p>
+							<div class="sub-comment mt-2">
+								<p>@Html.Raw(sc.Message) --- @sc.CreatedOn.ToString("g")</p>
+							</div>
 						}
 					</div>
-				}
-
-			</div>
+				</div>
+			}
 		}
 		else
 		{
-			<div>
+			<div class="alert alert-info">
 				<a asp-action="Login" asp-controller="User">Sign In</a> to comment on this awesome post!
 			</div>
 		}
-
 	</div>
-
 </div>
-
-@section Scripts {
-	<script>
-		$(document).ready(function () {
-			$('#editor').trumbowyg();
-		});
-	</script>
-}

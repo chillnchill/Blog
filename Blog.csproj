@@ -16,6 +16,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="NUnit" Version="4.1.0" />
     <PackageReference Include="PhotoSauce.MagicScaler" Version="0.14.2" />
   </ItemGroup>
 

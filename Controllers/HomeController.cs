@@ -12,6 +12,7 @@ namespace Blog.Controllers
 	{
 		private IRepository repository;
 		private IFileManager fileManager;
+		HtmlSanitizer sanitizer = new HtmlSanitizer();
 
 		public HomeController(IRepository repository, IFileManager fileManager)
 		{
@@ -60,9 +61,8 @@ namespace Blog.Controllers
 			{
 				return RedirectToAction("Post", new { id = vm.PostId });
 			}
-
-			HtmlSanitizer sanitizer = new HtmlSanitizer();
-			string sanitizedMessage = sanitizer.Sanitize(vm.Message);
+	
+			var sanitizedMessage = sanitizer.Sanitize(vm.Message);
 
 			Post post = repository.GetPost(vm.PostId);
 

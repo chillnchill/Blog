@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F9S3XxgemaiawPZ4ZitHPBBh/Fb5seNsgqRNqaNm89k=",
+  "Hash": "BtIgl0WiCtOPMvqTTCsgBHknj9gu7Uv/Yy3LrbhjZdg=",
   "Source": "Blog",
   "BasePath": "_content/Blog",
   "Mode": "Default",
@@ -1195,13 +1195,13 @@
       "OriginalItemSpec": "F:\\CodeProjects\\Blog\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blog.bundle.scp.css"
     },
     {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img03-06-2024-16-22-14.jpg",
+      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img_21-07-2024-01-48-33.jpg",
       "SourceId": "Blog",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img03-06-2024-16-22-14.jpg",
-      "AssetKind": "All",
+      "RelativePath": "content/blog/img_21-07-2024-01-48-33.jpg",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -1210,17 +1210,17 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img03-06-2024-16-22-14.jpg"
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\content\\blog\\img_21-07-2024-01-48-33.jpg"
     },
     {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img03-06-2024-16-22-36.jpg",
+      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img_21-07-2024-01-56-23.jpg",
       "SourceId": "Blog",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img03-06-2024-16-22-36.jpg",
-      "AssetKind": "All",
+      "RelativePath": "content/blog/img_21-07-2024-01-56-23.jpg",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -1229,17 +1229,17 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img03-06-2024-16-22-36.jpg"
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\content\\blog\\img_21-07-2024-01-56-23.jpg"
     },
     {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img03-06-2024-16-23-15.jpg",
+      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img_21-07-2024-01-58-39.jpg",
       "SourceId": "Blog",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img03-06-2024-16-23-15.jpg",
-      "AssetKind": "All",
+      "RelativePath": "content/blog/img_21-07-2024-01-58-39.jpg",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -1248,17 +1248,17 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img03-06-2024-16-23-15.jpg"
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\content\\blog\\img_21-07-2024-01-58-39.jpg"
     },
     {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img03-06-2024-16-26-17.jpg",
+      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img_21-07-2024-02-04-05.jpg",
       "SourceId": "Blog",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img03-06-2024-16-26-17.jpg",
-      "AssetKind": "All",
+      "RelativePath": "content/blog/img_21-07-2024-02-04-05.jpg",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -1267,17 +1267,17 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img03-06-2024-16-26-17.jpg"
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\content\\blog\\img_21-07-2024-02-04-05.jpg"
     },
     {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img03-06-2024-16-28-22.jpg",
+      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img_21-07-2024-19-06-10.jpg",
       "SourceId": "Blog",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img03-06-2024-16-28-22.jpg",
-      "AssetKind": "All",
+      "RelativePath": "content/blog/img_21-07-2024-19-06-10.jpg",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -1286,16 +1286,16 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img03-06-2024-16-28-22.jpg"
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\content\\blog\\img_21-07-2024-19-06-10.jpg"
     },
     {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img03-06-2024-16-37-42.jpg",
+      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\static\\1.jpg",
       "SourceId": "Blog",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img03-06-2024-16-37-42.jpg",
+      "RelativePath": "content/static/1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1306,121 +1306,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img03-06-2024-16-37-42.jpg"
-    },
-    {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img04-07-2024-12-14-07.jpg",
-      "SourceId": "Blog",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
-      "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img04-07-2024-12-14-07.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img04-07-2024-12-14-07.jpg"
-    },
-    {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img27-05-2024-16-51-12.jpg",
-      "SourceId": "Blog",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
-      "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img27-05-2024-16-51-12.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img27-05-2024-16-51-12.jpg"
-    },
-    {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img27-05-2024-16-55-46.jpg",
-      "SourceId": "Blog",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
-      "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img27-05-2024-16-55-46.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img27-05-2024-16-55-46.jpg"
-    },
-    {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img28-05-2024-18-27-18.jpg",
-      "SourceId": "Blog",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
-      "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img28-05-2024-18-27-18.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img28-05-2024-18-27-18.jpg"
-    },
-    {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img29-05-2024-15-31-06.jpeg",
-      "SourceId": "Blog",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
-      "BasePath": "_content/Blog",
-      "RelativePath": "content/blog/img29-05-2024-15-31-06.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\blog\\img29-05-2024-15-31-06.jpeg"
-    },
-    {
-      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\static\\1.jpeg",
-      "SourceId": "Blog",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
-      "BasePath": "_content/Blog",
-      "RelativePath": "content/static/1.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\static\\1.jpeg"
+      "OriginalItemSpec": "wwwroot\\content\\static\\1.jpg"
     },
     {
       "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\static\\2.jpeg",
@@ -1514,7 +1400,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
@@ -1533,7 +1419,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
@@ -1552,7 +1438,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
@@ -1571,7 +1457,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
@@ -1590,7 +1476,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
@@ -1609,7 +1495,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
@@ -1628,7 +1514,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
@@ -1647,7 +1533,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
@@ -1666,7 +1552,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
@@ -1685,7 +1571,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
@@ -1704,7 +1590,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
@@ -1723,7 +1609,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
@@ -1742,7 +1628,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
@@ -1761,7 +1647,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
@@ -1780,7 +1666,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
@@ -1799,7 +1685,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
@@ -1818,7 +1704,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
@@ -1837,7 +1723,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
@@ -1856,7 +1742,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
@@ -1875,7 +1761,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
@@ -1894,7 +1780,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
@@ -1913,7 +1799,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
@@ -1932,7 +1818,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
@@ -1951,7 +1837,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
@@ -1970,7 +1856,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
@@ -1989,7 +1875,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
@@ -2008,7 +1894,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
@@ -2027,7 +1913,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
@@ -2046,7 +1932,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
@@ -2065,7 +1951,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
@@ -2084,7 +1970,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
@@ -2103,7 +1989,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
@@ -2122,7 +2008,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
@@ -2141,7 +2027,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
@@ -2160,7 +2046,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
@@ -2179,7 +2065,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
@@ -2198,7 +2084,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
@@ -2217,7 +2103,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
@@ -2236,7 +2122,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
@@ -2255,7 +2141,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
@@ -2274,7 +2160,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
@@ -2293,7 +2179,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
@@ -2312,7 +2198,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
@@ -2331,7 +2217,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
@@ -2341,7 +2227,7 @@
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
       "RelativePath": "lib/bootstrap/LICENSE",
-      "AssetKind": "All",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -2350,7 +2236,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
@@ -2369,7 +2255,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
@@ -2388,7 +2274,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
@@ -2407,7 +2293,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
@@ -2417,7 +2303,7 @@
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
       "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -2426,7 +2312,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
@@ -2445,7 +2331,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
@@ -2464,7 +2350,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
@@ -2483,7 +2369,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
@@ -2502,7 +2388,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
@@ -2512,7 +2398,7 @@
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
-      "AssetKind": "All",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -2521,7 +2407,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
@@ -2531,7 +2417,7 @@
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetKind": "All",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -2540,7 +2426,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
@@ -2550,7 +2436,7 @@
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetKind": "All",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -2559,7 +2445,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
@@ -2569,7 +2455,7 @@
       "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetKind": "All",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
@@ -2578,7 +2464,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     }
   ]

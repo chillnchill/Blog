@@ -1,6 +1,8 @@
 ﻿body {
     margin: 0;
-    background-color: #d9c8d7;
+    /*    background: radial-gradient(circle, rgba(238,174,202,1) 40%, rgba(155,140,230,1) 77%);*/
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(155,140,230,1) 44%);
 }
 
 a {
@@ -27,7 +29,7 @@ nav {
 .main-img {
     position: relative;
     height: 700px;
-    background-image: url('../content/static/1.jpeg');
+    background-image: url('../content/static/1.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -48,6 +50,15 @@ nav {
     width: 100%;
     margin: auto;
 }
+
+    .container h1 {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        max-width: 56rem;
+        text-align: center;
+        font-size: 1.875rem;
+        line-height: 1;
+        color: #f7fafc;
+    }
 
 .post {
     margin: 5px;
@@ -76,7 +87,31 @@ nav {
 .post-body {
     margin: -5px 5px 0;
     padding: 20px 5px;
-    background-color: white;
+    background-color: #151515;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+    .post-body p {
+        color: antiquewhite;
+    }
+
+.comments {
+    text-align: center;
+    background-color: #151515;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;    
+}
+
+.comments p, h4, h3 {
+    color: antiquewhite;
+}
+
+#text{
+    color: wheat
+}
+
+.trumbowyg-box {
+    border: hidden;
 }

@@ -50,7 +50,7 @@ namespace Blog.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Edit(PostViewModel viewModel)
-        {
+             {
             Post post = new Post()
             {
                 Id = viewModel.Id,
@@ -96,7 +96,6 @@ namespace Blog.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    // Handle concurrency conflict
                     ModelState.AddModelError(string.Empty, "You bumbled");
                     return View(post);
                 }

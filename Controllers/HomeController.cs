@@ -1,15 +1,10 @@
-using Blog.Data;
 using Blog.Data.FileManager;
 using Blog.Data.Services;
 using Blog.Models;
 using Blog.Models.Comments;
 using Blog.ViewModels;
+using Ganss.Xss;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
-using Microsoft.IdentityModel.Tokens;
-using System.Collections.Generic;
-using System.Diagnostics;
 
 namespace Blog.Controllers
 {
@@ -62,17 +57,31 @@ namespace Blog.Controllers
 		public async Task<IActionResult> Comment(CommentViewModel vm)
 		{
 			if (!ModelState.IsValid)
+			{
 				return RedirectToAction("Post", new { id = vm.PostId });
+			}
+
+			HtmlSanitizer sanitizer = new HtmlSanitizer();
+			string sanitizedMessage = sanitizer.Sanitize(vm.Message);
 
 			Post post = repository.GetPost(vm.PostId);
 
+			if (post == null)
+			{
+				ModelState.AddModelError("", "Post not found.");
+				return View("Post", vm);
+			}
+
 			if (vm.MainCommentId == 0)
 			{
-				post.MainComments = post.MainComments ?? new List<MainComment>();
+				if (post.MainComments == null)
+				{
+					post.MainComments = new List<MainComment>();
+				}
 
 				post.MainComments.Add(new MainComment
 				{
-					Message = vm.Message,
+					Message = sanitizedMessage,
 					CreatedOn = DateTime.Now,
 				});
 
@@ -80,12 +89,13 @@ namespace Blog.Controllers
 			}
 			else
 			{
-				var comment = new SubComment
+				SubComment comment = new SubComment
 				{
 					MainCommentId = vm.MainCommentId,
-					Message = vm.Message,
+					Message = sanitizedMessage,
 					CreatedOn = DateTime.Now,
 				};
+
 				repository.AddSubComment(comment);
 			}
 

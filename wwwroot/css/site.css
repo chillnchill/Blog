@@ -45,18 +45,19 @@ nav {
         margin-bottom: 1rem;
     }
 
-.container {    
+.container {
     max-width: 800px;
     width: 100%;
     margin: auto;
 }
+
     .container h1 {
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        max-width: 56rem; 
+        max-width: 56rem;
         text-align: center;
         font-size: 1.875rem;
-        line-height: 1; 
-        color: #f7fafc; 
+        line-height: 1;
+        color: #f7fafc;
     }
 
 .post {
@@ -97,6 +98,20 @@ nav {
 
 .comments {
     text-align: center;
+    background-color: #151515;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;    
 }
 
-    
+.comments p  {
+    color: antiquewhite;
+}
+
+#text{
+    color: wheat
+}
+
+.trumbowyg-box {
+    border: hidden;
+}

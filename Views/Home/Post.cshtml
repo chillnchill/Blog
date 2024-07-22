@@ -1,55 +1,71 @@
 ﻿@model Post
 
+<div class="container mt-5">
+	<div class="container">
+		<h1>@Model.Title</h1>
+		<hr />
+		<div class="post shadow-none">
 
-<div class="container">
-	<h1>@Model.Title</h1>
-	<hr />
-	<div class="post shadow-none">
-		
-		@if (!String.IsNullOrEmpty(Model.Image))
-		{
-			string imagePath = $"/Image/{Model.Image}";
-			<img src="@imagePath" />
-		}
-	</div>	
-	<div class="post-body">
-		@Html.Raw(@Model.Body)
-	</div>
-</div>
-
-<div class="comments">
-	@if (User.Identity.IsAuthenticated)
-	{
-		<div class="comment-section">
-			@{
-				await Html.RenderPartialAsync("_MainComment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = 0 });
-			}
-
-			@foreach (var c in Model.MainComments)
+			@if (!String.IsNullOrEmpty(Model.Image))
 			{
-				<p>
-					@c.Message --- @c.CreatedOn
-				</p>
-				<div style="margin-left: 20px;">
-					<h4>Sub Comments</h4>
-					@{
-						await Html.RenderPartialAsync("_MainComment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = c.Id });
-					}
-
-					@foreach (var sc in c.SubComments)
-					{
-						<p>
-							@sc.Message --- @sc.CreatedOn
-						</p>
-					}
-				</div>
+				string imagePath = $"/Image/{Model.Image}";
+				<img src="@imagePath" />
 			}
 		</div>
-	}
-	else
-	{
-		<div>
-			<a asp-action="Login" asp-controller="User">Sign In</a> to comment on this awesome post!
+		<div class="post-body">
+			@Html.Raw(@Model.Body)
 		</div>
-	}
+	</div>
+
+	<hr />
+
+	<div class="comments">
+		@if (User.Identity.IsAuthenticated)
+		{
+			<div class="comment-section">
+				@{
+					await Html.RenderPartialAsync("_MainComment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = 0 });
+				}
+
+				@foreach (var mc in Model.MainComments)
+				{
+					<hr />
+
+					<p>
+						@Html.Raw(mc.Message) --- @mc.CreatedOn
+					</p>
+					<div style="margin-left: 20px;">
+						<h4>Sub Comments</h4>
+						@{
+							await Html.RenderPartialAsync("_MainComment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = mc.Id });
+						}
+
+						@foreach (var sc in mc.SubComments)
+						{
+							<p>
+								@sc.Message --- @sc.CreatedOn
+							</p>
+						}
+					</div>
+				}
+
+			</div>
+		}
+		else
+		{
+			<div>
+				<a asp-action="Login" asp-controller="User">Sign In</a> to comment on this awesome post!
+			</div>
+		}
+
+	</div>
+
 </div>
+
+@section Scripts {
+	<script>
+		$(document).ready(function () {
+			$('#editor').trumbowyg();
+		});
+	</script>
+}

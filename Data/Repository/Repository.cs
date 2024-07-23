@@ -90,6 +90,16 @@ namespace Blog.Data.Services
 		{
 			context.Add(comment);
 		}
+
+		public async Task<IEnumerable<SubComment>> GetSubCommentsByMainCommentIdAsync(int mainCommentId)
+		{
+			return await context.SubComments.Where(sc => sc.MainCommentId == mainCommentId).ToListAsync();
+		}
+
+		public void DeleteRange(IEnumerable<object> entities)
+		{
+			context.RemoveRange(entities);
+		}
 		public async Task<bool> SaveChangesAsync()
 		{
 			if (await context.SaveChangesAsync() > 0)
@@ -99,6 +109,6 @@ namespace Blog.Data.Services
 			return false;
 		}
 
-		
+
 	}
 }

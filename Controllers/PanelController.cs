@@ -9,116 +9,131 @@ using System.Diagnostics;
 
 namespace Blog.Controllers
 {
-    [Authorize(Roles = "Admin")]
-    public class PanelController : Controller
-    {
-        
-        private IRepository repository;
-        private IFileManager fileManager;
-        public PanelController(IRepository repository, IFileManager fileManager)
-        {
-            this.repository = repository;
-            this.fileManager = fileManager;
-        }
+	[Authorize(Roles = "Admin")]
+	public class PanelController : Controller
+	{
 
-        public IActionResult Index()
-        {
-            List<Post> posts = repository.GetAllPosts();
-            return View(posts);
-        }
+		private IRepository repository;
+		private IFileManager fileManager;
+		public PanelController(IRepository repository, IFileManager fileManager)
+		{
+			this.repository = repository;
+			this.fileManager = fileManager;
+		}
 
-        [HttpGet]
-        public IActionResult Edit(string id)
-        {
-            if (string.IsNullOrEmpty(id))
-            {
-                return View(new PostViewModel());
-            }
+		public IActionResult Index()
+		{
+			List<Post> posts = repository.GetAllPosts();
+			return View(posts);
+		}
 
-            Post post = repository.GetPost(id);
-            return View(new PostViewModel()
-            {
-                Id = post.Id,
-                Title = post.Title,
-                Body = post.Body,
-                CurrentImage = post.Image,
-                Description = post.Description,
-                Category = post.Category,
-                Tags = post.Tags
-            });
-        }
+		[HttpGet]
+		public IActionResult Edit(string id)
+		{
+			if (string.IsNullOrEmpty(id))
+			{
+				return View(new PostViewModel());
+			}
 
-        [HttpPost]
-        public async Task<IActionResult> Edit(PostViewModel viewModel)
-             {
-            Post post = new Post()
-            {
-                Id = viewModel.Id,
-                Title = viewModel.Title,
-                Body = viewModel.Body,
-                Description = viewModel.Description,
-                Category = viewModel.Category,
-                Tags = viewModel.Tags
-            };
+			Post post = repository.GetPost(id);
+			return View(new PostViewModel()
+			{
+				Id = post.Id,
+				Title = post.Title,
+				Body = post.Body,
+				CurrentImage = post.Image,
+				Description = post.Description,
+				Category = post.Category,
+				Tags = post.Tags
+			});
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> Edit(PostViewModel viewModel)
+		{
+			Post post = new Post()
+			{
+				Id = viewModel.Id,
+				Title = viewModel.Title,
+				Body = viewModel.Body,
+				Description = viewModel.Description,
+				Category = viewModel.Category,
+				Tags = viewModel.Tags
+			};
 
 			if (viewModel.Image == null)
 			{
-                post.Image = viewModel.CurrentImage;
+				post.Image = viewModel.CurrentImage;
 			}
-            else
-            {
+			else
+			{
 				post.Image = await fileManager.SaveImage(viewModel.Image);
 			}
-            
+
 			if (ModelState.IsValid)
-            {
-                try
-                {
-                    Post existingPost = repository.GetPost(viewModel.Id.ToString());
+			{
+				try
+				{
+					Post existingPost = repository.GetPost(viewModel.Id.ToString());
 
-                    if (existingPost == null)
-                    {
-                        repository.AddPost(post);
-                    }
-                    else
-                    {
-                        repository.UpdatePost(post);
-                    }
+					if (existingPost == null)
+					{
+						repository.AddPost(post);
+					}
+					else
+					{
+						repository.UpdatePost(post);
+					}
 
-                    if (await repository.SaveChangesAsync())
-                    {
-                        return RedirectToAction("Index");
-                    }
-                    else
-                    {
-                        return View(post);
-                    }
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    ModelState.AddModelError(string.Empty, "You bumbled");
-                    return View(post);
-                }
-            }
-            else
-            {
-                return View(post);
-            }
-        }
+					if (await repository.SaveChangesAsync())
+					{
+						return RedirectToAction("Index");
+					}
+					else
+					{
+						return View(post);
+					}
+				}
+				catch (DbUpdateConcurrencyException)
+				{
+					ModelState.AddModelError(string.Empty, "You bumbled");
+					return View(post);
+				}
+			}
+			else
+			{
+				return View(post);
+			}
+		}
 
-        [HttpGet]
-        public async Task<IActionResult> Remove(string id)
-        {
+		[HttpGet]
+		public async Task<IActionResult> Remove(string id)
+		{
+			Post post = repository.GetPost(id);
 
-            repository.RemovePost(id);
-            await repository.SaveChangesAsync();
-            return RedirectToAction("Index");
-        }
+			if (post == null)
+			{
+				return NotFound();
+			}
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-    }
+			foreach (var comment in post.MainComments)
+			{
+				var subComments = await repository.GetSubCommentsByMainCommentIdAsync(comment.Id);
+				repository.DeleteRange(subComments);
+			}
+
+			repository.DeleteRange(post.MainComments);
+			repository.RemovePost(id);
+
+			await repository.SaveChangesAsync();
+
+			return RedirectToAction("Index");
+		}
+
+		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+		public IActionResult Error()
+		{
+			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+		}
+	}
 }

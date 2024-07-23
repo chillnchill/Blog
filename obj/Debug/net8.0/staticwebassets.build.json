@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BtIgl0WiCtOPMvqTTCsgBHknj9gu7Uv/Yy3LrbhjZdg=",
+  "Hash": "kgpFXja/BC1D4p4l2VxnXzLleT3DOZrxufgB3ngGMHo=",
   "Source": "Blog",
   "BasePath": "_content/Blog",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\content\\blog\\img_21-07-2024-19-06-10.jpg"
+    },
+    {
+      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img_23-07-2024-16-49-51.jpg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "content/blog/img_23-07-2024-16-49-51.jpg",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\content\\blog\\img_23-07-2024-16-49-51.jpg"
     },
     {
       "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\static\\1.jpg",

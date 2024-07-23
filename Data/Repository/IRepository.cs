@@ -18,7 +18,11 @@ namespace Blog.Data.Services
 		//void AddSubComment(SubComment comment);
 		void AddSubComment(SubComment comment);
 		Task<bool> SaveChangesAsync();
+        Task<IEnumerable<SubComment>> GetSubCommentsByMainCommentIdAsync(int mainCommentId);
+        public void DeleteRange(IEnumerable<object> entities);
 
 
-    }
+
+
+	}
 }

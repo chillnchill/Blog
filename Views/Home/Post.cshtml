@@ -1,5 +1,7 @@
 ﻿@model Post
 
+<link href="~/css/comment.css" rel="stylesheet" />
+
 <div class="container mt-5">
 	<div class="post-container">
 		<h1>@Model.Title</h1>
@@ -13,49 +15,58 @@
 		</div>
 
 		<div class="post-body">
-			@Html.Raw(@Model.Body)
+			@Html.Raw(Model.Body)
 		</div>
 	</div>
 
 	<hr />
 
-	<div class="comments-section">
-		@if (User.Identity.IsAuthenticated)
-		{
-			<div class="add-comment">
-				@{
-					await Html.RenderPartialAsync("_MainComment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = 0 });
-				}
-			</div>
+    <div class="comment-section">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="add-comment">
+                @{
+                    ViewBag.CssClass = "main-comment-css";
+                    await Html.RenderPartialAsync("_Comment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = 0 });
+                }
+            </div>
 
-			@foreach (var mc in Model.MainComments)
-			{
-				<div class="main-comment mt-4">
-					<hr />
-					<h3>Main Comment</h3>
-					<p>@Html.Raw(mc.Message) --- @mc.CreatedOn.ToString("g")</p>
+            @foreach (var mc in Model.MainComments)
+            {
+                <div class="main-comment mt-4">
+                    <hr />
 
-					<div class="sub-comments ml-4">
-						<h4>Sub Comments</h4>
-						@{
-							await Html.RenderPartialAsync("_MainComment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = mc.Id });
-						}
+                    <div class="comment-message-wrapper">
+                        <p class="comment-message">@mc.Message</p>
+                        <span class="timestamp">@mc.CreatedOn.ToString("g")</span>
+                    </div>
 
-						@foreach (var sc in mc.SubComments)
-						{
-							<div class="sub-comment mt-2">
-								<p>@Html.Raw(sc.Message) --- @sc.CreatedOn.ToString("g")</p>
-							</div>
-						}
-					</div>
-				</div>
-			}
-		}
-		else
-		{
-			<div class="alert alert-info">
-				<a asp-action="Login" asp-controller="User">Sign In</a> to comment on this awesome post!
-			</div>
-		}
-	</div>
+                    <div class="reply-container">
+                        <input type="checkbox" id="reply-checkbox-@mc.Id" class="reply-checkbox" />
+                        <label for="reply-checkbox-@mc.Id" class="btn btn-link">Reply</label>
+                        <div class="reply-form">
+                            @{
+                                ViewBag.CssClass = "reply-comment-css";
+                                await Html.RenderPartialAsync("_Comment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = mc.Id });
+                            }
+                        </div>
+                    </div>
+
+                    @foreach (var sc in mc.SubComments)
+                    {
+                        <div class="sub-comment mt-2">
+                            <p>@sc.Message --- @sc.CreatedOn.ToString("g")</p>
+                        </div>
+                    }
+                </div>
+            }
+        }
+        else
+        {
+            <div class="alert alert-info">
+                <a asp-action="Login" asp-controller="User">Sign In</a> to comment on this awesome post!
+            </div>
+        }
+    </div>
+
 </div>

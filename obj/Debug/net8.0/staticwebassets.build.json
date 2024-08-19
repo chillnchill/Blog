@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kgpFXja/BC1D4p4l2VxnXzLleT3DOZrxufgB3ngGMHo=",
+  "Hash": "+sg4OTIWlFKMpXxKhHij/JJ8zAfueODqi5YTh3o5CLE=",
   "Source": "Blog",
   "BasePath": "_content/Blog",
   "Mode": "Default",
@@ -1309,6 +1309,25 @@
       "OriginalItemSpec": "wwwroot\\content\\blog\\img_23-07-2024-16-49-51.jpg"
     },
     {
+      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\blog\\img_24-07-2024-15-39-47.jpeg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "content/blog/img_24-07-2024-15-39-47.jpeg",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\content\\blog\\img_24-07-2024-15-39-47.jpeg"
+    },
+    {
       "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\content\\static\\1.jpg",
       "SourceId": "Blog",
       "SourceType": "Discovered",
@@ -1345,6 +1364,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\content\\static\\2.jpeg"
+    },
+    {
+      "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\css\\comment.css",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\CodeProjects\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "css/comment.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\comment.css"
     },
     {
       "Identity": "F:\\CodeProjects\\Blog\\wwwroot\\css\\site.css",

@@ -54,8 +54,9 @@
 
                     @foreach (var sc in mc.SubComments)
                     {
-                        <div class="sub-comment mt-2">
-                            <p>@sc.Message --- @sc.CreatedOn.ToString("g")</p>
+                        <div class="comment-message-wrapper mt-2">
+                            <p class="comment-message">@sc.Message</p>
+                            <span class="timestamp">@sc.CreatedOn.ToString("g")</span>
                         </div>
                     }
                 </div>

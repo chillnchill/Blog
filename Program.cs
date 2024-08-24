@@ -31,6 +31,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 });
 
 builder.Services.AddControllersWithViews();
+builder.Logging.AddConsole();
 builder.Services.AddTransient<IRepository, Repository>();
 builder.Services.AddTransient<IFileManager, FileManager>();
 

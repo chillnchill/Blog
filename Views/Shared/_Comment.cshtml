@@ -1,0 +1,19 @@
+﻿@model CommentViewModel
+
+@{
+    var cssClass = ViewBag.CssClass as string;
+}
+
+<div class="mb-3 @cssClass">
+    <form method="post" asp-controller="Home" asp-action="Comment">
+        <input asp-for="@Model.PostId" type="hidden" />
+        <input asp-for="@Model.MainCommentId" type="hidden" />
+        <div class="main-comment-box">
+            <textarea asp-for="@Model.Message" class="form-control comment-text-area @cssClass" placeholder="Write a comment..."></textarea>
+            <span asp-validation-for="@Model.Message" class="text-danger"></span>
+        </div>
+        <div class="button-wrapper">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>

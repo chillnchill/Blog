@@ -1,0 +1,123 @@
+﻿/* General Post Styles */
+.post-container {
+    margin-bottom: 2rem;
+}
+
+.post-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.post-body {
+    border-radius: 5px;
+}
+
+/* Styling for the comment section */
+.comment-section {
+    margin-top: 2rem;
+}
+
+.add-comment {
+    margin-bottom: 1.5rem;
+}
+
+/* Comment Styles */
+.comment-text-area {
+    width: 790px;
+    height: 60px;
+}
+
+.comment-message-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* MainComment Styles */
+.main-comment-box {
+    width: 790px;
+}
+
+.main-comment-css .comment-text-area {
+    width: 790px;
+    height: 60px;
+}
+
+.main-comment {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* SubComment Styles */
+
+.comment-message-wrapper-reply {
+    display: flex;
+    flex-direction: column;
+    margin-top: -13px;
+    padding-left: 25px;
+}
+
+.sub-comments {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border-left: 2px solid #ddd;
+}
+
+.sub-comment {
+    padding: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+}
+
+
+/* Reply Styles */
+.reply-comment-css .comment-text-area {
+    width: 755px;
+}
+
+.button-wrapper {
+    text-align: right;
+    margin-top: -10px;
+    padding-right: 5px;
+}
+
+.btn {
+    margin-top: 0.5rem;
+}
+
+.reply-container {
+    position: relative;
+}
+
+.reply-checkbox {
+    display: none;
+}
+
+    .reply-checkbox:checked ~ .reply-form {
+        display: block;
+    }
+
+.reply-form {
+    display: none;
+    margin-top: 0.5rem;
+}
+
+.reply-container label {
+    cursor: pointer;
+    font-size: 0.875rem;
+    color: #007bff;
+}
+
+    .reply-container label:hover {
+        color: #0056b3;
+    }

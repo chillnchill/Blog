@@ -1,4 +1,5 @@
 ﻿using Blog.ViewModels;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,21 +8,33 @@ namespace Blog.Controllers
     public class UserController : Controller
     {
         private SignInManager<IdentityUser> signInManager;
+        private readonly ILogger<UserController> logger;
 
-        public UserController(SignInManager<IdentityUser> signInManager)
+        public UserController(SignInManager<IdentityUser> signInManager, ILogger<UserController> logger)
         {
             this.signInManager = signInManager;
+            this.logger = logger;
         }
 
         [HttpGet]
-        public IActionResult Login()
+        public async Task<IActionResult> Login()
         {
-            return View(new LoginViewModel());
+            try
+            {
+                await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
+            }
+            catch (Exception ex)
+            {               
+                logger.LogError(ex, "Error signing out of external scheme");
+            }
+
+            return View("Login", new LoginViewModel());
         }
+
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel vm)
         {
-            var result = await signInManager.PasswordSignInAsync(vm.UserName, vm.Password, false, false);
+            await signInManager.PasswordSignInAsync(vm.UserName, vm.Password, false, false);
             return RedirectToAction("Index", "Panel");
         }
 

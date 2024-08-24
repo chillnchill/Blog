@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\comment.css"
     },
     {
+      "Id": "F:\\CodeProjects\\Blog\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "F:\\CodeProjects\\Blog\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

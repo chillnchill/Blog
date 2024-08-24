@@ -59,8 +59,9 @@ namespace Blog.Controllers
 		{
 			if (!ModelState.IsValid)
 			{
-				return RedirectToAction("Post", new { id = vm.PostId });
-			}
+                return RedirectToAction("Post", new { id = vm.PostId });
+
+            }
 	
 			var sanitizedMessage = sanitizer.Sanitize(vm.Message);
 

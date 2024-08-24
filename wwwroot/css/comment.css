@@ -1,4 +1,4 @@
-﻿
+﻿/* General Post Styles */
 .post-container {
     margin-bottom: 2rem;
 }
@@ -24,13 +24,25 @@
     margin-bottom: 1.5rem;
 }
 
-.main-comment-box {
-    width: 790px;
-}
-
+/* Comment Styles */
 .comment-text-area {
     width: 790px;
     height: 60px;
+}
+
+.comment-message-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* MainComment Styles */
+.main-comment-box {
+    width: 790px;
 }
 
 .main-comment-css .comment-text-area {
@@ -38,16 +50,20 @@
     height: 60px;
 }
 
-/* Reply comment */
-.reply-comment-css .comment-text-area {
-    width: 755px;
-}
-
 .main-comment {
     padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #f9f9f9;
+}
+
+/* SubComment Styles */
+
+.comment-message-wrapper-reply {
+    display: flex;
+    flex-direction: column;
+    margin-top: -13px;
+    padding-left: 25px;
 }
 
 .sub-comments {
@@ -63,14 +79,11 @@
     background-color: #fcfcfc;
 }
 
-        .comment-message-wrapper {
-            display: flex;
-            flex-direction:column;
-        }
-        .timestamp {
-            text-align: right;
-            font-size: 12px;
-        }
+
+/* Reply Styles */
+.reply-comment-css .comment-text-area {
+    width: 755px;
+}
 
 .button-wrapper {
     text-align: right;
@@ -80,10 +93,6 @@
 
 .btn {
     margin-top: 0.5rem;
-}
-
-.timestamp {
-    text-align: right;
 }
 
 .reply-container {

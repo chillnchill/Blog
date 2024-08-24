@@ -21,53 +21,56 @@
 
 	<hr />
 
-    <div class="comment-section">
-        @if (User.Identity.IsAuthenticated)
-        {
-            <div class="add-comment">
-                @{
-                    ViewBag.CssClass = "main-comment-css";
-                    await Html.RenderPartialAsync("_Comment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = 0 });
-                }
-            </div>
+	<div class="comment-section">
+		@if (User.Identity.IsAuthenticated)
+		{
+			<div class="add-comment">
+				@{
+					ViewBag.CssClass = "main-comment-css";
+					await Html.RenderPartialAsync("_Comment", new CommentViewModel
+				{ 
+					PostId = Model.Id.ToString(),
+					MainCommentId = 0 
+				});
+				}
+			</div>
 
-            @foreach (var mc in Model.MainComments)
-            {
-                <div class="main-comment mt-4">
-                    <hr />
+			@foreach (var mc in Model.MainComments)
+			{
+				<div class="main-comment mt-4">
 
-                    <div class="comment-message-wrapper">
-                        <p class="comment-message">@mc.Message</p>
-                        <span class="timestamp">@mc.CreatedOn.ToString("g")</span>
-                    </div>
+					<div class="comment-message-wrapper">
+						<p class="comment-message">@mc.Message</p>
+						<span class="timestamp">@mc.CreatedOn.ToString("g")</span>
+					</div>
 
-                    <div class="reply-container">
-                        <input type="checkbox" id="reply-checkbox-@mc.Id" class="reply-checkbox" />
-                        <label for="reply-checkbox-@mc.Id" class="btn btn-link">Reply</label>
-                        <div class="reply-form">
-                            @{
-                                ViewBag.CssClass = "reply-comment-css";
-                                await Html.RenderPartialAsync("_Comment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = mc.Id });
-                            }
-                        </div>
-                    </div>
+					<div class="reply-container">
+						<input type="checkbox" id="reply-checkbox-@mc.Id" class="reply-checkbox" />
+						<label for="reply-checkbox-@mc.Id" class="btn btn-link">Reply</label>
+						<div class="reply-form">
+							@{
+								ViewBag.CssClass = "reply-comment-css";
+								await Html.RenderPartialAsync("_Comment", new CommentViewModel { PostId = Model.Id.ToString(), MainCommentId = mc.Id });
+							}
+						</div>
+					</div>
 
-                    @foreach (var sc in mc.SubComments)
-                    {
-                        <div class="comment-message-wrapper mt-2">
-                            <p class="comment-message">@sc.Message</p>
-                            <span class="timestamp">@sc.CreatedOn.ToString("g")</span>
-                        </div>
-                    }
-                </div>
-            }
-        }
-        else
-        {
-            <div class="alert alert-info">
-                <a asp-action="Login" asp-controller="User">Sign In</a> to comment on this awesome post!
-            </div>
-        }
-    </div>
+					@foreach (var sc in mc.SubComments)
+					{
+						<div class="comment-message-wrapper-reply">
+							<p class="comment-message">@sc.Message</p>
+							<span class="timestamp">@sc.CreatedOn.ToString("g")</span>
+						</div>
+					}
+				</div>
+			}
+		}
+		else
+		{
+			<div class="alert alert-info">
+				<a asp-action="Login" asp-controller="User">Sign In</a> to comment on this awesome post!
+			</div>
+		}
+	</div>
 
 </div>

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qEeJhvlxkkIWvn5JQ6iI94Y8lyOz9arMBpuq32IvreTzRdQL49sy242tckQS5VoJyXoLm1i2KnQ9+5fVkWNRBw==",
+  "dgSpecHash": "jBgp8sF89s27zU0EJX3l6BrfMyFPsl9ON5hjNhbljE5gOJM/1/zD2QgGo03drqaBqpHl/0qGwapRmj9TdNb1Gw==",
   "success": true,
   "projectFilePath": "F:\\CodeProjects\\Blog\\Blog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jojoc\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\anglesharp.css\\0.17.0\\anglesharp.css.0.17.0.nupkg.sha512",
+    "C:\\Users\\jojoc\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\htmlsanitizer\\8.0.865\\htmlsanitizer.8.0.865.nupkg.sha512",
@@ -57,6 +58,7 @@
     "C:\\Users\\jojoc\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\jojoc\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\photosauce.magicscaler\\0.14.2\\photosauce.magicscaler.0.14.2.nupkg.sha512",
     "C:\\Users\\jojoc\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

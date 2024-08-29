@@ -10,6 +10,7 @@
 
 <div class="login-container">
     <form asp-controller="User" asp-action="Login" method="post" class="login-form">
+        @Html.AntiForgeryToken()
         <div class="form-group">
             <label asp-for="UserName"></label>
             <input asp-for="UserName" class="form-control" />

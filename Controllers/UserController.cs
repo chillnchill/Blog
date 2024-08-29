@@ -3,21 +3,24 @@ using Blog.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Globalization;
 
 namespace Blog.Controllers
 {
     public class UserController : Controller
     {
         private SignInManager<IdentityUser> signInManager;
+        private UserManager<IdentityUser> userManager;
         private readonly ILogger<UserController> logger;
         private readonly INotyfService notyf;
 
-        public UserController(SignInManager<IdentityUser> signInManager, ILogger<UserController> logger, INotyfService notyf)
+        public UserController(SignInManager<IdentityUser> signInManager,
+            ILogger<UserController> logger, INotyfService notyf, UserManager<IdentityUser> userManager)
         {
             this.signInManager = signInManager;
             this.logger = logger;
-            this.notyf = notyf; 
-
+            this.notyf = notyf;
+            this.userManager = userManager;
         }
 
         [HttpGet]
@@ -85,8 +88,54 @@ namespace Blog.Controllers
         public async Task<IActionResult> Logout()
         {
             await signInManager.SignOutAsync();
-            notyf.Success("Successfully logged out", 3);
+            notyf.Success("Successfully logged out", 5);
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View(new RegisterViewModel());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Register(RegisterViewModel vm)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(vm);
+            }
+
+            try
+            {
+                IdentityUser user = new IdentityUser
+                {
+                    UserName = vm.UserName,
+                    Email = vm.Email
+                };
+
+                IdentityResult result = await userManager.CreateAsync(user, vm.Password);
+
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(user, "User");
+                    notyf.Success("Registration successful. You can now log in.", 5);
+                    return RedirectToAction("Login", "User");
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Error during user registration.");
+                notyf.Error("An error occurred. Please try again later.", 5);
+            }
+
+            return View(vm);
         }
     }
 }

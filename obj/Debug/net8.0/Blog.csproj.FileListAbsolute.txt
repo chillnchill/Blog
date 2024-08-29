@@ -578,3 +578,6 @@ F:\CodeProjects\Blog\bin\Debug\net8.0\AngleSharp.Css.dll
 F:\CodeProjects\Blog\bin\Debug\net8.0\HtmlSanitizer.dll
 F:\CodeProjects\Blog\bin\Debug\net8.0\nunit.framework.dll
 F:\CodeProjects\Blog\bin\Debug\net8.0\nunit.framework.legacy.dll
+F:\CodeProjects\Blog\bin\Debug\net8.0\AspNetCoreHero.ToastNotification.Views.dll
+F:\CodeProjects\Blog\bin\Debug\net8.0\AspNetCoreHero.ToastNotification.dll
+F:\CodeProjects\Blog\bin\Debug\net8.0\Newtonsoft.Json.dll

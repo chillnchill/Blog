@@ -28,9 +28,9 @@
 				@{
 					ViewBag.CssClass = "main-comment-css";
 					await Html.RenderPartialAsync("_Comment", new CommentViewModel
-				{ 
+				{
 					PostId = Model.Id.ToString(),
-					MainCommentId = 0 
+					MainCommentId = 0
 				});
 				}
 			</div>
@@ -74,3 +74,9 @@
 	</div>
 
 </div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

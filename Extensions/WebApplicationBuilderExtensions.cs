@@ -22,29 +22,36 @@ namespace Blog.Extensions
             //async section
             Task.Run(async () =>
             {
-                if (await roleManager.RoleExistsAsync("Admin"))
+
+                if (!await roleManager.RoleExistsAsync("Admin"))
                 {
-                    return;
+                    IdentityRole adminRole = new IdentityRole("Admin");
+                    await roleManager.CreateAsync(adminRole);
                 }
 
-                IdentityRole role =
-                    new IdentityRole("Admin");
-
-                await roleManager.CreateAsync(role);
-
-                IdentityUser adminUser = new IdentityUser()
+                if (!await roleManager.RoleExistsAsync("User"))
                 {
-                    UserName = "admin",
-                    Email = email
-                };
+                    IdentityRole userRole = new IdentityRole("User");
+                    await roleManager.CreateAsync(userRole);
+                }
 
-                await userManager.CreateAsync(adminUser, "password");
-                await userManager.AddToRoleAsync(adminUser, role.Name!);
+                if (await userManager.FindByNameAsync("admin") == null)
+                {
+                    IdentityUser adminUser = new IdentityUser()
+                    {
+                        UserName = "admin",
+                        Email = email
+                    };
+
+                    await userManager.CreateAsync(adminUser, "password");
+                    await userManager.AddToRoleAsync(adminUser, "Admin");
+                }
             })
             .GetAwaiter()
             .GetResult();
 
             return app;
+
         }
     }
 }

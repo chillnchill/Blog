@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Blog.Extensions;
 using Blog.Data.FileManager;
+using AspNetCoreHero.ToastNotification;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ string connectionString = builder.Configuration.GetConnectionString("DefaultConn
 
 builder.Services.AddDbContext<BlogDbContext>(options =>
     options.UseSqlServer(connectionString));
+
 
 
 // You need the nuget packages for DefaultIdentity (EFC Identity + ASP.NET UI)
@@ -34,6 +36,11 @@ builder.Services.AddControllersWithViews();
 builder.Logging.AddConsole();
 builder.Services.AddTransient<IRepository, Repository>();
 builder.Services.AddTransient<IFileManager, FileManager>();
+builder.Services.AddNotyf(config =>
+{
+    config.IsDismissable = true;
+    config.Position = NotyfPosition.BottomRight;
+});
 
 WebApplication app = builder.Build();
 

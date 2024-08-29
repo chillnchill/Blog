@@ -38,7 +38,6 @@ builder.Services.AddTransient<IRepository, Repository>();
 builder.Services.AddTransient<IFileManager, FileManager>();
 builder.Services.AddNotyf(config =>
 {
-    config.DurationInSeconds = 10;
     config.IsDismissable = true;
     config.Position = NotyfPosition.BottomRight;
 });

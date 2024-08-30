@@ -20,7 +20,7 @@ namespace Blog.Controllers
 			this.fileManager = fileManager;
 		}
 
-		public IActionResult Index(string category, int pageNumber = 1)
+		public async Task<IActionResult> Index(string category, int pageNumber = 1)
 		{
 			ViewData["Title"] = "Blog";
 			ViewData["Description"] = "Where I write my words";
@@ -31,16 +31,15 @@ namespace Blog.Controllers
 				return RedirectToAction("Index", new { pageNumber = 1, category });
 			}
 
-			IndexViewModel vm = repository.GetAllPostsForPagination(pageNumber, category);
+			IndexViewModel vm = await repository.GetAllPostsForPaginationAsync(pageNumber, category);
 
 			return View(vm);
 		}
 
 		[HttpGet]
-		public IActionResult Post(string id)
+		public async Task<IActionResult> Post(string id)
 		{
-
-			Post post = repository.GetPost(id);
+			Post post = await repository.GetPostAsync(id);
 			ViewData["Title"] = post.Title;
 			ViewData["Description"] = post.Description;
 			ViewData["Keywords"] = post.Tags;
@@ -55,17 +54,17 @@ namespace Blog.Controllers
 		}
 
 		[HttpPost]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Comment(CommentViewModel vm)
 		{
 			if (!ModelState.IsValid)
 			{
                 return RedirectToAction("Post", new { id = vm.PostId });
-
             }
 	
-			var sanitizedMessage = sanitizer.Sanitize(vm.Message);
+			string sanitizedMessage = sanitizer.Sanitize(vm.Message);     
 
-			Post post = repository.GetPost(vm.PostId);
+			Post post = await repository.GetPostAsync(vm.PostId);
 
 			if (post == null)
 			{
@@ -97,7 +96,7 @@ namespace Blog.Controllers
 					CreatedOn = DateTime.Now,
 				};
 
-				repository.AddSubComment(comment);
+				await repository.AddSubCommentAsync(comment);
 			}
 
 			await repository.SaveChangesAsync();

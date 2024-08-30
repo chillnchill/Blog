@@ -21,21 +21,21 @@ namespace Blog.Controllers
 			this.fileManager = fileManager;
 		}
 
-		public IActionResult Index()
+		public async Task<IActionResult> Index(string category)
 		{
-			List<Post> posts = repository.GetAllPosts();
+			IEnumerable<Post> posts = await repository.GetAllPostsAsync(category);
 			return View(posts);
 		}
 
 		[HttpGet]
-		public IActionResult Edit(string id)
+		public async Task<IActionResult> Edit(string id)
 		{
 			if (string.IsNullOrEmpty(id))
 			{
 				return View(new PostViewModel());
 			}
 
-			Post post = repository.GetPost(id);
+			Post post = await repository.GetPostAsync(id);
 			return View(new PostViewModel()
 			{
 				Id = post.Id,
@@ -74,11 +74,11 @@ namespace Blog.Controllers
 			{
 				try
 				{
-					Post existingPost = repository.GetPost(viewModel.Id.ToString());
+					Post existingPost = await repository.GetPostAsync(viewModel.Id.ToString());
 
 					if (existingPost == null)
 					{
-						repository.AddPost(post);
+						await repository.AddPostAsync(post);
 					}
 					else
 					{
@@ -109,7 +109,7 @@ namespace Blog.Controllers
 		[HttpGet]
 		public async Task<IActionResult> Remove(string id)
 		{
-			Post post = repository.GetPost(id);
+			Post post = await repository.GetPostAsync(id);
 
 			if (post == null)
 			{
@@ -123,7 +123,7 @@ namespace Blog.Controllers
 			}
 
 			repository.DeleteRange(post.MainComments);
-			repository.RemovePost(id);
+			await repository.RemovePostAsync(id);
 
 			await repository.SaveChangesAsync();
 

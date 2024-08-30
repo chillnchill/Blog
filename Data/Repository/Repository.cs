@@ -14,25 +14,24 @@ namespace Blog.Data.Services
 		{
 			this.context = context;
 		}
-		public void AddPost(Post post)
+		public async Task AddPostAsync(Post post)
 		{
-			context.Posts.Add(post);
+			await context.Posts.AddAsync(post);
+		}
+		public async Task<List<Post>> GetAllPostsAsync()
+		{
+			return await context.Posts.ToListAsync();
 		}
 
-		public List<Post> GetAllPosts()
+		public async Task<IEnumerable<Post>> GetAllPostsAsync(string category)
 		{
-			return context.Posts.ToList();
-		}
-
-
-		public List<Post> GetAllPosts(string category)
-		{
-			return context.Posts
+			return await context.Posts
 				.Where(post => post.Category.ToLower().Equals(category.ToLower()))
-				.ToList();
+				.ToListAsync();
 		}
 
-		public IndexViewModel GetAllPostsForPagination(int pageNumber, string category)
+
+		public async Task<IndexViewModel> GetAllPostsForPaginationAsync(int pageNumber, string category)
 		{
 			int postsPerPage = 3;
 			int postsToSkip = postsPerPage * (pageNumber - 1);
@@ -44,13 +43,13 @@ namespace Blog.Data.Services
 				query = query.Where(p => p.Category == category);
 			}
 
-			int postsCount = query.Count(); // Count posts after filtering by category
-			int pageCount = (int)Math.Ceiling((double)postsCount / postsPerPage); // Calculate total pages
+			int postsCount = await query.CountAsync(); 
+			int pageCount = (int)Math.Ceiling((double)postsCount / postsPerPage);
 
-			List<Post> posts = query
+			List<Post> posts = await query
 				.Skip(postsToSkip)
 				.Take(postsPerPage)
-				.ToList();
+				.ToListAsync();
 
 			return new IndexViewModel()
 			{
@@ -61,19 +60,24 @@ namespace Blog.Data.Services
 			};
 		}
 
-		public Post GetPost(string id)
+		public async Task<Post> GetPostAsync(string id)
 		{
-			Post? post = context.Posts
+			Post post = await context.Posts
 				.Include(p => p.MainComments)
-				.ThenInclude(p => p.SubComments)
-				.FirstOrDefault(p => p.Id.ToString() == id);
+				.ThenInclude(mc => mc.SubComments)
+				.FirstAsync(p => p.Id.ToString() == id);
 
 			return post;
 		}
 
-		public void RemovePost(string id)
+		public async Task RemovePostAsync(string id)
 		{
-			context.Posts.Remove(GetPost(id));
+			Post? post = await GetPostAsync(id);
+
+			if (post != null)
+			{
+				context.Posts.Remove(post);
+			}
 		}
 
 		public void UpdatePost(Post post)
@@ -86,9 +90,9 @@ namespace Blog.Data.Services
 			context.Posts.Update(post);
 		}
 
-		public void AddSubComment(SubComment comment)
+		public async Task AddSubCommentAsync(SubComment comment)
 		{
-			context.Add(comment);
+			await context.AddAsync(comment);
 		}
 
 		public async Task<IEnumerable<SubComment>> GetSubCommentsByMainCommentIdAsync(int mainCommentId)
@@ -108,7 +112,5 @@ namespace Blog.Data.Services
 			}
 			return false;
 		}
-
-
 	}
 }

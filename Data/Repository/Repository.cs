@@ -18,17 +18,17 @@ namespace Blog.Data.Services
 		{
 			await context.Posts.AddAsync(post);
 		}
-		public async Task<List<Post>> GetAllPostsAsync()
+		public async Task<IEnumerable<Post>> GetAllPostsAsync()
 		{
 			return await context.Posts.ToListAsync();
 		}
 
-		public async Task<IEnumerable<Post>> GetAllPostsAsync(string category)
-		{
-			return await context.Posts
-				.Where(post => post.Category.ToLower().Equals(category.ToLower()))
-				.ToListAsync();
-		}
+		//public async Task<IEnumerable<Post>> GetAllPostsAsync(string category)
+		//{
+		//	return await context.Posts
+		//		.Where(post => post.Category.ToLower().Equals(category.ToLower()))
+		//		.ToListAsync();
+		//}
 
 
 		public async Task<IndexViewModel> GetAllPostsForPaginationAsync(int pageNumber, string category)
@@ -65,7 +65,7 @@ namespace Blog.Data.Services
 			Post post = await context.Posts
 				.Include(p => p.MainComments)
 				.ThenInclude(mc => mc.SubComments)
-				.FirstAsync(p => p.Id.ToString() == id);
+				.FirstOrDefaultAsync(p => p.Id.ToString() == id);
 
 			return post;
 		}

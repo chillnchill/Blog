@@ -21,9 +21,9 @@ namespace Blog.Controllers
 			this.fileManager = fileManager;
 		}
 
-		public async Task<IActionResult> Index(string category)
+		public async Task<IActionResult> Index()
 		{
-			IEnumerable<Post> posts = await repository.GetAllPostsAsync(category);
+			IEnumerable<Post> posts = await repository.GetAllPostsAsync();
 			return View(posts);
 		}
 

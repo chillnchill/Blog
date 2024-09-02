@@ -8,7 +8,7 @@ namespace Blog.Data.Services
     {
         Task<Post> GetPostAsync(string id);
 		Task<IndexViewModel> GetAllPostsForPaginationAsync(int pageNumber, string category);
-        Task<IEnumerable<Post>> GetAllPostsAsync(string category);
+        Task<IEnumerable<Post>> GetAllPostsAsync();
 		Task AddPostAsync(Post post);
         void UpdatePost(Post post);
 		Task RemovePostAsync(string id);

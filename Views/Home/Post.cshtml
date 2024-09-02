@@ -1,4 +1,4 @@
-﻿@model Post
+﻿@model Blog.ViewModels.PostViewModel
 
 <link href="~/css/comment.css" rel="stylesheet" />
 
@@ -8,9 +8,9 @@
 		<hr />
 
 		<div class="post-image">
-			@if (!String.IsNullOrEmpty(Model.Image))
+			@if (!String.IsNullOrEmpty(Model.CurrentImage))
 			{
-				<img src="@Url.Content($"/Image/{Model.Image}")" class="img-fluid" alt="Post Image" />
+				<img src="@Url.Content($"/Image/{Model.CurrentImage}")" class="img-fluid" alt="Post Image" />
 			}
 		</div>
 

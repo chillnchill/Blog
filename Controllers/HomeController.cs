@@ -66,11 +66,24 @@ namespace Blog.Controllers
                     return RedirectToAction("Error", "Home", new { message = "Post not found." });
                 }
 
-                ViewData["Title"] = post.Title;
-                ViewData["Description"] = post.Description;
-                ViewData["Keywords"] = post.Tags;
+                PostViewModel vm = new PostViewModel
+                {
+                    Id = post.Id,
+                    Title = post.Title,
+                    Body = post.Body,
+                    Description = post.Description,
+                    Tags = post.Tags,
+                    Category = post.Category,
+                    CurrentImage = post.Image,
+                    MainComments = post.MainComments,
+                };
 
-                return View(post);
+
+                ViewData["Title"] = vm.Title;
+                ViewData["Description"] = vm.Description;
+                ViewData["Keywords"] = vm.Tags;
+
+                return View(vm);
             }
             catch (Exception ex)
             {

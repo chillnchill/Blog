@@ -23,7 +23,8 @@ namespace Blog.Controllers
 
 		public async Task<IActionResult> Index()
 		{
-			IEnumerable<Post> posts = await repository.GetAllPostsAsync();
+			IEnumerable<PostViewModel> posts = await repository.GetAllPostsAsync();
+
 			return View(posts);
 		}
 
@@ -49,32 +50,32 @@ namespace Blog.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Edit(PostViewModel viewModel)
+		public async Task<IActionResult> Edit(PostViewModel vm)
 		{
 			Post post = new Post()
 			{
-				Id = viewModel.Id,
-				Title = viewModel.Title,
-				Body = viewModel.Body,
-				Description = viewModel.Description,
-				Category = viewModel.Category,
-				Tags = viewModel.Tags
+				Id = vm.Id,
+				Title = vm.Title,
+				Body = vm.Body,
+				Description = vm.Description,
+				Category = vm.Category,
+				Tags = vm.Tags
 			};
 
-			if (viewModel.Image == null)
+			if (vm.Image == null)
 			{
-				post.Image = viewModel.CurrentImage;
+				post.Image = vm.CurrentImage;
 			}
 			else
 			{
-				post.Image = await fileManager.SaveImage(viewModel.Image);
+				post.Image = await fileManager.SaveImage(vm.Image);
 			}
 
 			if (ModelState.IsValid)
 			{
 				try
 				{
-					Post existingPost = await repository.GetPostAsync(viewModel.Id.ToString());
+					Post existingPost = await repository.GetPostAsync(vm.Id.ToString());
 
 					if (existingPost == null)
 					{

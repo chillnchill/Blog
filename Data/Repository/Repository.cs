@@ -18,11 +18,21 @@ namespace Blog.Data.Services
 		{
 			await context.Posts.AddAsync(post);
 		}
-		public async Task<IEnumerable<Post>> GetAllPostsAsync()
+		public async Task<IEnumerable<PostViewModel>> GetAllPostsAsync()
 		{
-			return await context.Posts.ToListAsync();
+			return await context.Posts
+				.Select(p => new PostViewModel
+				{
+					Id = p.Id,
+					Title = p.Title,
+					Body = p.Body,
+					CurrentImage = p.Image,
+					Description = p.Description,
+					Category = p.Category,
+					Tags = p.Tags
+				})
+				.ToListAsync();
 		}
-
 		//public async Task<IEnumerable<Post>> GetAllPostsAsync(string category)
 		//{
 		//	return await context.Posts

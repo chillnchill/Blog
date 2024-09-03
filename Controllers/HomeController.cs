@@ -5,6 +5,7 @@ using Blog.Models.Comments;
 using Blog.ViewModels;
 using Ganss.Xss;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace Blog.Controllers
 {
@@ -13,41 +14,85 @@ namespace Blog.Controllers
 		private IRepository repository;
 		private IFileManager fileManager;
 		HtmlSanitizer sanitizer = new HtmlSanitizer();
+		private readonly ILogger<HomeController> logger;
 
-		public HomeController(IRepository repository, IFileManager fileManager)
+		public HomeController(IRepository repository, IFileManager fileManager, ILogger<HomeController> logger)
 		{
 			this.repository = repository;
 			this.fileManager = fileManager;
+			this.logger = logger;
 		}
 
-		public IActionResult Index(string category, int pageNumber = 1)
+		public async Task<IActionResult> Index(string category, int pageNumber = 1)
 		{
 			ViewData["Title"] = "Blog";
 			ViewData["Description"] = "Where I write my words";
 			ViewData["Keywords"] = "blog, programming, games, books";
 
-			if (pageNumber < 1)
-			{
-				return RedirectToAction("Index", new { pageNumber = 1, category });
-			}
+            if (pageNumber < 1)
+            {
+                logger.LogWarning("Invalid page number {PageNumber}, redirecting to page 1.", pageNumber);
+                return RedirectToAction("Index", new { pageNumber = 1, category });
+            }
 
-			IndexViewModel vm = repository.GetAllPostsForPagination(pageNumber, category);
+            try
+            {
+                IndexViewModel vm = await repository.GetAllPostsForPaginationAsync(pageNumber, category);
 
-			return View(vm);
-		}
+                if (vm == null)
+                {
+                    logger.LogWarning($"No posts found for category {category} on page {pageNumber}.");
+                    return RedirectToAction("Error", "Home", new { message = "No posts found." });
+                }
 
-		[HttpGet]
-		public IActionResult Post(string id)
-		{
+                return View(vm);
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, $"Error retrieving posts for category {category} on page {pageNumber}.");
+                return RedirectToAction("Error", "Home", new { message = "An error occurred while retrieving posts." });
+            }
+        }
 
-			Post post = repository.GetPost(id);
-			ViewData["Title"] = post.Title;
-			ViewData["Description"] = post.Description;
-			ViewData["Keywords"] = post.Tags;
-			return View(post);
-		}
+        [HttpGet]
+        public async Task<IActionResult> Post(string id)
+        {
+            try
+            {
+                Post post = await repository.GetPostAsync(id);
+                if (post == null)
+                {
+                    logger.LogWarning($"Post with ID {id} not found.");
+                    return RedirectToAction("Error", "Home", new { message = "Post not found." });
+                }
 
-		[HttpGet("/Image/{image}")]
+                PostViewModel vm = new PostViewModel
+                {
+                    Id = post.Id,
+                    Title = post.Title,
+                    Body = post.Body,
+                    Description = post.Description,
+                    Tags = post.Tags,
+                    Category = post.Category,
+                    CurrentImage = post.Image,
+                    MainComments = post.MainComments,
+                };
+
+
+                ViewData["Title"] = vm.Title;
+                ViewData["Description"] = vm.Description;
+                ViewData["Keywords"] = vm.Tags;
+
+                return View(vm);
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, $"Error retrieving post with ID {id}.");
+                return RedirectToAction("Error", "Home", new { message = "An error occurred while retrieving the post." });
+            }
+        }
+
+        [HttpGet("/Image/{image}")]
 		public IActionResult Image(string image)
 		{
 			string mime = image.Substring(image.LastIndexOf('.') + 1);
@@ -55,22 +100,22 @@ namespace Blog.Controllers
 		}
 
 		[HttpPost]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Comment(CommentViewModel vm)
 		{
 			if (!ModelState.IsValid)
 			{
                 return RedirectToAction("Post", new { id = vm.PostId });
-
             }
 	
-			var sanitizedMessage = sanitizer.Sanitize(vm.Message);
+			string sanitizedMessage = sanitizer.Sanitize(vm.Message);     
 
-			Post post = repository.GetPost(vm.PostId);
+			Post post = await repository.GetPostAsync(vm.PostId);
 
 			if (post == null)
 			{
-				ModelState.AddModelError("", "Post not found.");
-				return View("Post", vm);
+				logger.LogWarning($"Attempt to comment on a non-existent post with ID {vm.PostId}", vm.PostId);
+				return RedirectToAction("Error", "Home", new { message = "Post not found." });
 			}
 
 			if (vm.MainCommentId == 0)
@@ -97,7 +142,7 @@ namespace Blog.Controllers
 					CreatedOn = DateTime.Now,
 				};
 
-				repository.AddSubComment(comment);
+				await repository.AddSubCommentAsync(comment);
 			}
 
 			await repository.SaveChangesAsync();
@@ -105,5 +150,17 @@ namespace Blog.Controllers
 			return RedirectToAction("Post", new { id = vm.PostId });
 		}
 
-	}
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error(string message)
+        {
+            ErrorViewModel errorViewModel = new ErrorViewModel
+            {
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+            };
+
+            ViewBag.ErrorMessage = message;
+
+            return View(errorViewModel);  
+        }
+    }
 }

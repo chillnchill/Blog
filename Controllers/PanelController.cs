@@ -21,21 +21,22 @@ namespace Blog.Controllers
 			this.fileManager = fileManager;
 		}
 
-		public IActionResult Index()
+		public async Task<IActionResult> Index()
 		{
-			List<Post> posts = repository.GetAllPosts();
+			IEnumerable<PostViewModel> posts = await repository.GetAllPostsAsync();
+
 			return View(posts);
 		}
 
 		[HttpGet]
-		public IActionResult Edit(string id)
+		public async Task<IActionResult> Edit(string id)
 		{
 			if (string.IsNullOrEmpty(id))
 			{
 				return View(new PostViewModel());
 			}
 
-			Post post = repository.GetPost(id);
+			Post post = await repository.GetPostAsync(id);
 			return View(new PostViewModel()
 			{
 				Id = post.Id,
@@ -49,36 +50,36 @@ namespace Blog.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Edit(PostViewModel viewModel)
+		public async Task<IActionResult> Edit(PostViewModel vm)
 		{
 			Post post = new Post()
 			{
-				Id = viewModel.Id,
-				Title = viewModel.Title,
-				Body = viewModel.Body,
-				Description = viewModel.Description,
-				Category = viewModel.Category,
-				Tags = viewModel.Tags
+				Id = vm.Id,
+				Title = vm.Title,
+				Body = vm.Body,
+				Description = vm.Description,
+				Category = vm.Category,
+				Tags = vm.Tags
 			};
 
-			if (viewModel.Image == null)
+			if (vm.Image == null)
 			{
-				post.Image = viewModel.CurrentImage;
+				post.Image = vm.CurrentImage;
 			}
 			else
 			{
-				post.Image = await fileManager.SaveImage(viewModel.Image);
+				post.Image = await fileManager.SaveImage(vm.Image);
 			}
 
 			if (ModelState.IsValid)
 			{
 				try
 				{
-					Post existingPost = repository.GetPost(viewModel.Id.ToString());
+					Post existingPost = await repository.GetPostAsync(vm.Id.ToString());
 
 					if (existingPost == null)
 					{
-						repository.AddPost(post);
+						await repository.AddPostAsync(post);
 					}
 					else
 					{
@@ -109,7 +110,7 @@ namespace Blog.Controllers
 		[HttpGet]
 		public async Task<IActionResult> Remove(string id)
 		{
-			Post post = repository.GetPost(id);
+			Post post = await repository.GetPostAsync(id);
 
 			if (post == null)
 			{
@@ -123,7 +124,7 @@ namespace Blog.Controllers
 			}
 
 			repository.DeleteRange(post.MainComments);
-			repository.RemovePost(id);
+			await repository.RemovePostAsync(id);
 
 			await repository.SaveChangesAsync();
 

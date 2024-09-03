@@ -28,6 +28,8 @@
 				<option value="Games">Games</option>
 				<option value="Books">Books</option>
 				<option value="Programming">Programming</option>
+				<option value="Movies">Movies</option>
+				<option value="Anime">Anime</option>
 			</select>
 			<span asp-validation-for="Category" class="text-danger"></span>
 		</div>
@@ -55,6 +57,9 @@
 			$('#editor').trumbowyg();
 		});
 	</script>
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
 }
 
 <style>
@@ -74,6 +79,5 @@
 		display: block;
 		margin-top: 10px;
 	}
-
 
 </style>

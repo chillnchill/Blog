@@ -10,7 +10,7 @@ namespace Blog.ViewModels
         [Display(Name = "User")]
         public string UserName { get; set; } = null!;
 
-      //  [StrongPassword]
+       // [StrongPassword]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; } = null!;

@@ -1,0 +1,17 @@
+﻿@model Blog.Models.ErrorViewModel
+
+<div class="error-page">
+    <h1 class="text-danger">Oops! Something went wrong.</h1>
+
+    <p>@ViewBag.ErrorMessage</p>
+
+    @if (Model.ShowRequestId)
+    {
+        <p>
+            Request ID: <strong>@Model.RequestId</strong><br />
+            If you need support, please mention this ID to help us track the issue.
+        </p>
+    }
+
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Return to Home</a>
+</div>

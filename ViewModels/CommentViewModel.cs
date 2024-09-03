@@ -3,6 +3,7 @@ using System.Text.Encodings.Web;
 
 namespace Blog.ViewModels
 {
+	using static Blog.Constants.ValidationConstants;
 	public class CommentViewModel
 	{		
 		[Required]
@@ -11,7 +12,7 @@ namespace Blog.ViewModels
 		public int MainCommentId { get; set; }
 
 		[Required]
-		[StringLength(15360, MinimumLength = 3 , ErrorMessage = "Comments need to be at least 3 characters long")]
+		[StringLength(CommentsMaxLength, MinimumLength = CommentsMinLength , ErrorMessage = FieldErrorMessage)]
 		public string Message { get; set; } = string.Empty;
 
 	}

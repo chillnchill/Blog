@@ -12,7 +12,7 @@ namespace Blog.ViewModels
 		public int MainCommentId { get; set; }
 
 		[Required]
-		[StringLength(CommentsMaxLength, MinimumLength = CommentsMinLength , ErrorMessage = CommentsError)]
+		[StringLength(CommentsMaxLength, MinimumLength = CommentsMinLength , ErrorMessage = FieldErrorMessage)]
 		public string Message { get; set; } = string.Empty;
 
 	}

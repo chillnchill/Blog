@@ -57,7 +57,7 @@ namespace Blog.Controllers
                 if (result.Succeeded)
                 {
                     notyf.Success("Successfully logged in!", 3);
-                    return RedirectToAction("Index", "Panel");
+                    return RedirectToAction("Index", "Home");
                 }
                 else if (result.IsLockedOut)
                 {

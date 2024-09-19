@@ -107,9 +107,32 @@ namespace Blog.Data.Services
 
 		public async Task<IEnumerable<SubComment>> GetSubCommentsByMainCommentIdAsync(int mainCommentId)
 		{
-			return await context.SubComments.Where(sc => sc.MainCommentId == mainCommentId).ToListAsync();
+			return await context.SubComments
+				.Where(sc => sc.MainCommentId == mainCommentId)
+				.ToListAsync();
 		}
 
+		public async Task<Comment> FetchCommentForEditAsync(int commentId, string userId)
+		{
+			Comment comment = await context.Comments
+				.Where(c => c.Id == commentId && c.UserId == userId)
+				.FirstOrDefaultAsync();
+
+			return comment;
+		}
+
+		public async Task<CommentViewModel> EditCommentAsync(Comment comment)
+		{
+			CommentViewModel vm = new CommentViewModel()
+			{
+				UserId = comment.UserId,
+				MainCommentId = comment.Id, 
+				Message = comment.Message,
+				CreatedOn = comment.CreatedOn
+			};
+
+			return vm;
+		}
 		public void DeleteRange(IEnumerable<object> entities)
 		{
 			context.RemoveRange(entities);
@@ -122,5 +145,7 @@ namespace Blog.Data.Services
 			}
 			return false;
 		}
+
+		
 	}
 }

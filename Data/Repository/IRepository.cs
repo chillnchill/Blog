@@ -14,11 +14,10 @@ namespace Blog.Data.Services
 		Task RemovePostAsync(string id);
 		Task AddSubCommentAsync(SubComment comment);
 		Task<IEnumerable<SubComment>> GetSubCommentsByMainCommentIdAsync(int mainCommentId);
+		Task<Comment> FetchCommentForEditAsync(int commentId, string userId);
+		Task<CommentViewModel> EditCommentAsync(Comment comment);
 		Task<bool> SaveChangesAsync();
         public void DeleteRange(IEnumerable<object> entities);
-
-
-
 
 	}
 }

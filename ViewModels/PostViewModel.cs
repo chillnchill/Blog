@@ -24,9 +24,7 @@ namespace Blog.ViewModels
 		[StringLength(TagsMaxLength, MinimumLength = TagsMinLength, ErrorMessage = FieldErrorMessage)]
 		public string Tags { get; set; } = null!;		
 		public string Category { get; set; } = null!;
-		public string? CurrentImage { get; set; }
-
-		
+		public string? CurrentImage { get; set; }		
 		public IFormFile? Image { get; set; }
 		public List<MainComment> MainComments { get; set; }
 	}

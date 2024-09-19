@@ -14,7 +14,7 @@ namespace Blog.ViewModels
         public string UserName { get; set; } = null!;
 
         [Required]
-	//	[StrongPassword]
+		[StrongPassword]
 		[DataType(DataType.Password)]
         public string Password { get; set; } = null!;
 

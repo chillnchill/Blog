@@ -1,11 +1,15 @@
+using AspNetCoreHero.ToastNotification.Abstractions;
 using Blog.Data.FileManager;
 using Blog.Data.Services;
+using Blog.Extensions;
 using Blog.Models;
 using Blog.Models.Comments;
 using Blog.ViewModels;
 using Ganss.Xss;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace Blog.Controllers
 {
@@ -15,12 +19,15 @@ namespace Blog.Controllers
 		private IFileManager fileManager;
 		HtmlSanitizer sanitizer = new HtmlSanitizer();
 		private readonly ILogger<HomeController> logger;
+		private readonly INotyfService notyf;
 
-		public HomeController(IRepository repository, IFileManager fileManager, ILogger<HomeController> logger)
+		public HomeController(IRepository repository, IFileManager fileManager,
+			ILogger<HomeController> logger, INotyfService notyf)
 		{
 			this.repository = repository;
 			this.fileManager = fileManager;
 			this.logger = logger;
+			this.notyf = notyf;
 		}
 
 		public async Task<IActionResult> Index(string category, int pageNumber = 1)
@@ -88,7 +95,7 @@ namespace Blog.Controllers
             catch (Exception ex)
             {
                 logger.LogError(ex, $"Error retrieving post with ID {id}.");
-                return RedirectToAction("Error", "Home", new { message = "An error occurred while retrieving the post." });
+                return RedirectToAction("Error", "Home", new { message = "An error occurred while retrieving the post."});
             }
         }
 
@@ -103,9 +110,19 @@ namespace Blog.Controllers
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Comment(CommentViewModel vm)
 		{
+			string userId = User.GetId()!;
+
+			if (string.IsNullOrEmpty(userId))
+			{
+				notyf.Error("You need to be logged in to write a comment!", 5);
+				return RedirectToAction("Post", new { id = vm.PostId });
+			}
+
+			vm.UserId = userId;
+
 			if (!ModelState.IsValid)
 			{
-                return RedirectToAction("Post", new { id = vm.PostId });
+				return RedirectToAction("Post", new { id = vm.PostId });
             }
 	
 			string sanitizedMessage = sanitizer.Sanitize(vm.Message);     
@@ -114,7 +131,7 @@ namespace Blog.Controllers
 
 			if (post == null)
 			{
-				logger.LogWarning($"Attempt to comment on a non-existent post with ID {vm.PostId}", vm.PostId);
+				logger.LogWarning($"Attempt to comment on a non-existent post with ID {vm.PostId}");
 				return RedirectToAction("Error", "Home", new { message = "Post not found." });
 			}
 
@@ -127,6 +144,7 @@ namespace Blog.Controllers
 
 				post.MainComments.Add(new MainComment
 				{
+					UserId = vm.UserId,
 					Message = sanitizedMessage,
 					CreatedOn = DateTime.Now,
 				});
@@ -137,6 +155,7 @@ namespace Blog.Controllers
 			{
 				SubComment comment = new SubComment
 				{
+					UserId = vm.UserId,
 					MainCommentId = vm.MainCommentId,
 					Message = sanitizedMessage,
 					CreatedOn = DateTime.Now,
@@ -150,7 +169,65 @@ namespace Blog.Controllers
 			return RedirectToAction("Post", new { id = vm.PostId });
 		}
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+		[HttpGet]
+		//i have to check if the postId is being successfully grabbed tomorrow 
+		public async Task<IActionResult> EditComment(int commentId, string postId)
+		{
+			//check if this is not null or some dork shit
+			string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+			Comment comment = await repository.FetchCommentForEditAsync(commentId, userId);
+
+			if (comment == null)
+			{				
+				return NotFound("Comment not found or you do not have permission to edit this comment.");
+			}
+
+			CommentViewModel vm = new CommentViewModel
+			{
+				PostId = postId,
+				UserId = comment.UserId,
+				MainCommentId = comment.Id,
+				Message = comment.Message,
+				CreatedOn = comment.CreatedOn
+			};
+			return View(vm);  // Return the view with the populated view model
+		}
+
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> EditComment(CommentViewModel vm)
+		{
+			if (!ModelState.IsValid)
+			{
+				return View(vm);
+			}
+
+			Comment comment = await repository.FetchCommentForEditAsync(vm.MainCommentId, vm.UserId);
+
+			if (comment == null)
+			{
+				return NotFound("Comment not found or you do not have permission to edit this comment.");
+			}
+
+			// Update the entity model with new data from the view model
+			comment.Message = vm.Message;
+
+			// Save changes to the database
+			bool success = await repository.SaveChangesAsync();
+
+			if (!success)
+			{
+				ModelState.AddModelError(string.Empty, "Failed to update the comment.");
+				return View(vm);
+			}
+
+			// Redirect back to the post or another page
+			return RedirectToAction("Post", "Home", new { id = vm.PostId });
+
+		}
+
+		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error(string message)
         {
             ErrorViewModel errorViewModel = new ErrorViewModel
